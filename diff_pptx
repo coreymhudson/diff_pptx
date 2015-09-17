@@ -1,0 +1,16 @@
+git log --pretty=oneline | head -n 2 | cut -f1 -d" " > git.diff
+version1=`head -n 1 git.diff`
+version2=`tail -n 1 git.diff`  
+git checkout $version2 $1
+unzip -qc $1 ppt/slides/slide*.xml | egrep -o '(<a:t>).*?(</a:t>)' | perl -p -e 's/<\/a:t>\n/ /' | perl -p -e 's/<a:t>//g' | perl -p -e 's/\s+/ /g' > tmp.out1
+git checkout $version1 $1
+unzip -qc $1 ppt/slides/slide*.xml | egrep -o '(<a:t>).*?(</a:t>)' | perl -p -e 's/<\/a:t>\n/ /' | perl -p -e 's/<a:t>//g' | perl -p -e 's/\s+/ /g' > tmp.out2
+rm -rf ppt/
+rm -rf docProps/
+rm -rf _rels/
+echo "\n\n"
+./wdiff/wdiff tmp.out1 tmp.out2 | ./colordiff/colordiff
+rm tmp.out1
+rm tmp.out2
+rm git.diff
+echo "\n\n"

@@ -1,0 +1,2110 @@
+2014-04-14  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	2f40bc523412742dac387b37d70b5a7f5d8363cc of the master branch, or more
+	precisely, revision 095c7d122d04cb935cfe8f7e6539f3cc7d27b8b9 of my own
+	"mvg" branch, available from github.
+
+2013-12-21  Yuri Kozlov  <yuray@komyakino.ru>
+
+	Updated Russian translation.
+
+2013-12-21  Rafael Ferreira  <rafael.f.f1@gmail.com>
+
+	Updated Brazilian Portuguese translation.
+
+2013-04-05  Wei-Lun Chao  <bluebat@member.fsf.org>
+
+	Updated Chinese (traditional) translation.
+
+2013-03-10  Toomas Soome  <Toomas.Soome@microlink.ee>
+
+	Updated Estonian translation.
+
+2013-03-10  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2013-03-10  Trần Ngọc Quân  <vnwildman@gmail.com>
+
+	Updated Vietnamese translation.
+
+2013-10-21  Ineiev  <ineiev@gnu.org>
+
+	Fix out-of-tree builds of man pages.
+
+2013-08-31  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	[mdiff] Fix conflicting short option letter.
+	
+	There were two cases of 't' so far, --expand-tabs and --tolerance. This
+	could lead to segmentation faults, since one of them expects an argument
+	while the other does not. The latter is now removed since it is not even
+	reported in the online help. Yet another -t option is removed from the
+	documentation.
+	
+	The whole thing still looks like it would need a lot more work, with all the
+	FIXME lines it contains.
+
+2013-03-09  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 1.2.1.
+
+2013-03-09  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Do not require Texinfo 5.0.
+
+2013-03-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Disable some syntax checks to ensure we pass the rest.
+	
+	As there is no portable alternative to strncpy, and the strncpy uses in this
+	application should be handling things careful enough, this seems safe.
+	
+	Keeping 9 years of copyrights in a single line in the texi file doesn't
+	agree with my ideas of good style, so I'll rather disable the check.
+
+2013-03-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Improved ChangeLog: UTF-8 and without merges.
+
+2013-03-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated NEWS.
+
+2013-01-29  Felipe Castro  <fefcas@gmail.com>
+
+	New Esperanto translation.
+
+2013-01-29  Leandro Regueiro  <leandro.regueiro@gmail.com>
+
+	Updated Galician translation.
+
+2013-01-29  Marco Colombo  <m.colombo@ed.ac.uk>
+
+	Updated Italian translation.
+
+2013-01-29  David Prévot  <david@tilapin.org>
+
+	Updated French translation.
+
+2012-07-12  Мирослав Николић  <miroslavnikolic@rocketmail.com>
+
+	Updated Serbian translation.
+
+2012-05-31  Benno Schulenberg  <benno@vertaalt.nl>
+
+	Updated Dutch translation.
+
+2012-05-30  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2012-05-30  Michael Piefel  <piefel@informatik.hu-berlin.de>
+
+	Updated German translation.
+
+2012-05-30  Primož Peterlin  <primozz.peterlin@gmail.com>
+
+	Updated Slovenian translation.
+
+2012-05-28  Santiago Vila Doncel  <sanvila@unex.es>
+
+	Updated Spanish translation.
+
+2012-05-28  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2012-05-26  Jorma Karvonen  <karvonen.jorma@gmail.com>
+
+	Updated Finnish translation.
+
+2012-05-26  Petr Pisar  <petr.pisar@atlas.cz>
+
+	Updated Czech translation.
+
+2012-05-26  Trần Ngọc Quân  <vnwildman@gmail.com>
+
+	Updated Vietnamese translation.
+
+2012-05-26  Rafał Maszkowski  <rzm@icm.edu.pl>
+
+	Updated Polish translation.
+
+2012-05-25  Yuri Chornoivan  <yurchor@ukr.net>
+
+	Updated Ukrainian translation.
+
+2013-03-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	929bd53a6d2863c97bd3eb371f4693c39540bcb5 of the master branch, or more
+	precisely, revision 3e80f5daa3f249b507666cec4133727d313f63a8 of my own
+	"mvg" branch, available from github.
+
+2012-05-23  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Beta release 1.2.0.
+
+2012-05-19  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Add NEWS item for 1.1.1
+
+2012-05-19  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Update copyright to 2012.
+
+2012-05-19  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Only index files, not directories.
+	
+	Without this change, many syntax checks suddenly fail. Perhaps due to some
+	change to bzr, not sure.
+
+2012-05-17  Мирослав Николић  <miroslavnikolic@rocketmail.com>
+
+	Added Serbian translation.
+
+2012-04-22  Trần Ngọc Quân  <vnwildman@gmail.com>
+
+	Updated Vietnamese translation.
+
+2012-04-22  Keld Simonsen  <keld@keldix.com>
+
+	Updated Danish translation.
+
+2012-04-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Fix wdiff man page synopsis.
+	
+	This fix works around the actual problem using a patch, in order to avoid
+	changes to the translatable messages of the help on usage.
+
+2012-04-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Adjust usage lines in help to match what help2man expects.
+
+2011-11-16  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Fix title of 1.1.0 section in NEWS file.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 1.1.0.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated NEWS.
+
+2011-10-27  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2011-10-20  Santiago Vila Doncel  <sanvila@unex.es>
+
+	Updated Spanish translation.
+
+2011-09-28  Michael Piefel  <piefel@informatik.hu-berlin.de>
+
+	Updated German translation.
+
+2011-09-19  Benno Schulenberg  <benno@vertaalt.nl>
+
+	Updated Dutch translation.
+
+2011-09-19  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2011-09-19  Petr Pisar  <petr.pisar@atlas.cz>
+
+	Updated Czech translation.
+
+2011-09-19  Jorma Karvonen  <karvonen.jorma@gmail.com>
+
+	Updated Finnish translation.
+
+2011-09-17  Primož Peterlin  <primozz.peterlin@gmail.com>
+
+	Updated Slovenian translation.
+
+2011-09-17  Rafał Maszkowski  <rzm@icm.edu.pl>
+
+	Updated Polish translation.
+
+2011-09-17  Yuri Chornoivan  <yurchor@ukr.net>
+
+	Updated Ukrainian translation.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	9c19e102abfbf90cb5286c01441fec9f0b37b348 of the master branch, or more
+	precisely, revision 52f7b80b7d853ef399e51f8189558b9976299bb8 of my own
+	"mvg" branch, available from github.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Imported gnulib modules we started using in the last two commits.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop autodetection of less in mdiff as well.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop autodetection of less. Use the environment variable LESS instead to
+	pass options to less without affecting other pagers. Pass -R in addition to 
+	-X so less will simply pass control sequences to the terminal. By no longer
+	automatically enabling less-mode (i.e. overstrike_for_less), we avoid   
+	having to split a byte stream into characters for multibyte locales.
+	Less-mode is now deprecated, but can still be used if explicitely enabled on
+	the command line.
+
+2011-11-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	* Pass PATH on to env inside screen. Without this, screen on OS X 10.5 will
+	set that variable to some default, and the version of wdiff that will be
+	tested will be the one installed, not the one just built.
+	* Don't mention screen in AT_TESTED, as doing so will cause the test suite
+	to fail if screen isn't available.
+	
+	Thanks to Nelson H. F. Beebe for a verbose e-mail pointing out these issues.
+
+2011-09-29  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Don't run the public-submodule-commit rule as part of the check target.
+	
+	The resulting extra output of "make check" can be confusing for users, and
+	doesn't benefit wdiff as we're using neither git nor submodules.
+
+2011-09-29  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Document testsuite fix
+
+2011-09-29  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Use tr instead of sed to remove carriage returns in testsuite.
+	
+	The sed binary on OS X 10.6 doesn't recognise the '\r' escape sequence, and
+	matches all occurrences of the letter 'r' instead.  POSIX doesnapparently
+	doesn't require sed to understand '\r', but tr is required to know about it.
+	
+	Thanks to John Purnell for the report and detailed investigation.
+
+2011-09-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Beta release 1.0.2.
+
+2011-09-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Preparing a beta release 1.0.2 for translators.
+	
+	As there are virtually no changes except for the translation message id
+	strings, there is little point in releasing this version tothe public before
+	a significant number of translations are available as well.  Thus it's beta.
+
+2011-09-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Use ngettext to allow the use of proper plural forms.
+	
+	Thanks to Petr Pisar for bringing this to my attention.
+
+2011-09-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 1.0.1.
+
+2011-09-11  Petr Pisar  <petr.pisar@atlas.cz>
+
+	Updated Czech translation.
+
+2011-09-08  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2011-09-08  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translation.
+
+2011-09-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Document new translations in NEWS file.
+
+2011-09-08  Jorma Karvonen  <karvonen.jorma@gmail.com>
+
+	Updated Finnish translation.
+
+2011-09-08  Benno Schulenberg  <benno@vertaalt.nl>
+
+	Updated Dutch translation.
+
+2011-09-08  Primož Peterlin  <primozz.peterlin@gmail.com>
+
+	Updated Slovenian translation.
+
+2011-09-08  Yuri Chornoivan  <yurchor@ukr.net>
+
+	Updated Ukrainian translation.
+
+2011-09-08  Rafał Maszkowski  <rzm@icm.edu.pl>
+
+	Updated Polish translation.
+
+2011-09-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 1.0.0.
+
+2011-09-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	2c53fc42a02ccb53023521043c774769b057cbfb of the master branch, or more
+	precisely, revision 161eb687864aaabb0aa54a8a8e3b7e446077e977 of my own
+	"mvg" branch, available from github.
+
+2011-09-04  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Add test case to check handling of unified diff files as input.
+
+2011-09-04  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Improve pager test.
+	
+	The test now checks the full output, which helps in case wdiff prints any
+	error message that it should not.  The test now is more likely to skip if
+	any application out of our control does not behave as expected.
+
+2011-09-03  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Rename system.h to wdiff.h.
+	
+	The header contains code common to many source files in the wdiff package,
+	but not necessarily code related to the system (as in operating system)
+	we're building for.  This the new name should be better suited.
+
+2011-09-03  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Reindented pipes.c.
+
+2011-09-03  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Scan renamed pipes.c for translatable strings, instead of old file names.
+	
+	Accidentially reverted that change before I committed the pipes.c rewrite.
+
+2011-09-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Add test for usage of the pager.
+	
+	This requires screen to provide a tty which isatty will accept.  If screen
+	is not available, the test will be skipped.
+
+2011-09-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Unify pipe stream code.
+	
+	Now we have a single function to do the bulk of the pipe operation.  The two
+	frontends readpipe and writepipe are rather minimalistic.
+	The main motivation behind this change is using dup2 from gnulib instead of
+	the old and probably less portable code relying on the order in which file
+	descriptors are allocated by the operating system.
+
+2011-09-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Perform uniform indentation using the indent tool.
+	
+	This commit is simply the result of a call to "make indent", which in turn
+	ran "indent -gnu -ppi1 -ut" on all our source files.
+
+2011-09-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Prepare for uniform indentation using the indent tool.
+	
+	Adding a set of style flags to cfg.mk which matches current style as closely
+	as possible, and is also reasonably close to GNU defaults.  As mixing lines
+	using tabs and those using only spaces will look particularly horrible in
+	editors, we're forcing all code to use one style only.  As the current code
+	mostly use tabs, that's our choice for now, but we might change that to
+	spaces only one day.
+	
+	A check for proper indentation is now included in the syntax checks as well,
+	so if a developer executes those checks as part of the release process, bad
+	indentation will cause that check to fail.  Some other minor fixes and
+	improvements to maint.mk were included in the process.
+	
+	The usage texts are not automatically indented, as for those lines, having
+	output lines and code lines increases readability dramatically.  Having all
+	those fputs lines reindented would make the code much harder to read than
+	even hard wrapped lines do.  And most editors will allow truncating lines
+	instead or wrapping them, making them even easier to read.
+
+2011-09-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Scan readpipe.c and writepipe.c for translatable error messages.
+	
+	Thanks to the gnulib maintainer-makefile syntax-check for catching this.
+
+2011-09-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Report errors due to a problem calling the diff program.
+	
+	- We use the gnulib error module for reporting, so explicitely adding it as
+	a dependency.
+	- Dropped old vararg syntax in readpipe.c and writepipe.c. The gnulib error
+	function provides the new syntax only, so we depend on that being
+	supported anyway.  Dropping old cruft only adds readability here.
+	- When diff returned with an error code other than 0 (no differences) or 1
+	(some differences), then we should not print remaining lines as unchanged,
+	but exit with an error code ourselves.  This requires moving of the
+	complete_input_program call to a location before the common tail is
+	printed.
+	- Added a test group simulating a missing or erroring diff binary.
+
+2011-08-31  Primož Peterlin  <primozz.peterlin@gmail.com>
+
+	Updated Slovenian translation.
+
+2011-08-31  Jean-Christophe Helary  <jean.christophe.helary@gmail.com>
+
+	Updated French translation.
+
+2011-02-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	489cedffb410a94803cf10502b27b1facf026dfc of the master branch, or more
+	precisely, revision 2a8557cf108b945966d0a8495218e2e86e983a0e of my own
+	"mvg" branch, available from github.
+
+2011-02-08  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Don't modify main po files when updating gnulib.
+
+2011-02-06  Yuri Chornoivan  <yurchor@ukr.net>
+
+	Added Ukrainian translation.
+
+2011-02-06  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated copyright line in texinfo documentation.
+	
+	This is mainly to keep the gnulib style checks happy, as there is no real
+	modification to the documentation as such.
+
+2011-01-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	9779055889c2715b593930e39ead552759b5ddc2 of the master branch, or more
+	precisely, revision 912de5d35a526ae0de84f7ae86358fffd1e9e66b of my own "mvg"
+	branch, available from github.
+
+2011-01-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Omit gnulib po file changes only affecting line numbers.
+
+2011-01-15  Primož Peterlin  <primozz.peterlin@gmail.com>
+
+	Updated Slovenian translation.
+
+2011-01-14  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Include merges in ChangeLog.
+	
+	This way, contributors to sidelines, the translations sideline in
+	particular, will be credited properly in the ChangeLog as well, not just in
+	the translation message files.  One (somewhat ugly) consequence is that many
+	messages appear twice, once for the sideline commit and once for the merge. 
+	Can't be helped just now.
+
+2011-01-14  Keld Simonsen  <keld@keldix.com>
+
+	Updated Danish translation.
+
+2010-12-20  Nicolas Provost  <nprovost@quadriv.com>
+
+	Updated French translation.
+
+2010-12-08  Benno Schulenberg  <benno@vertaalt.nl>
+
+	Updated Dutch translation.
+
+2010-12-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.5.
+
+2010-12-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Include wdiff.h2m in distribution tarball.
+
+2010-12-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Add call to bindtextdomain to wdiff2.
+	
+	Thanks to gnulib for catching this.
+
+2010-12-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	e8eabe5a3d44bcd5ca87fba668d52203192b1645 of the master branch, or more
+	precisely, revision 2eabdc8c392a6cd5abfc4e2e35fff798a5158248 of my own "mvg"
+	branch, available from github.
+
+2010-12-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Use $(PATH_SEPARATOR) in makefile for added compatibility.
+	
+	This was suggested by the gnulib syntax check.
+
+2010-12-04  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Deprecate --no-init-term, make --terminal a synonym to it.
+	
+	Terminal initialization is only required when performing cursor movement,
+	which wdiff doesn't.  Therefore there should be no need to initialize the
+	terminal.  Furthermore, doing initialization can cause the screen to be
+	restored to its pre-initialization state upon deinitialization, thereby
+	clearing all wdiff output.
+	
+	As a consequence, we never do terminal initialization.  This is what the old
+	--no-init-term option did.  Nevertheless we keep the shorter and more
+	intuitive --terminal (-t) as the documented and preferred option,
+	deprecating --no-init-term.  We still accept the option, but don't document
+	it in the online help, and use a dedicated section on compatibility in the
+	man page.
+
+2010-12-04  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Improve help2man generation of man pages.
+	
+	* Avoid passing a path in argv[0] to the invoked process.
+	* Ensure binary not only exists, but is more recent than source file.
+	* Put long things like the name section into a separate help2man file.
+
+2010-11-06  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.4.
+
+2010-11-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated NEWS
+
+2010-11-05  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	e9101693adb3c251ee277242ef4af7aa570193b6 of the master branch, or more
+	precisely, revision 53eef0ec613ddadc83449fe9cc1275e787e4ac1c of my own "mvg"
+	branch, available from github.
+
+2010-11-05  Jordi Mallach  <jordi@sindominio.net>
+
+	Updated Catalan translations
+
+2010-06-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.3 again, this time with updated NEWS file.
+
+2010-06-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.3.
+
+2010-06-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	47e899ad11a04647942b39dd501bfc2381e9b2f0 of the master branch, or more
+	precisely, revision 6cd4f0c488faed6acf44bfb07184cfd9ae4f1ba1 of my own "mvg"
+	branch, available from github.
+
+2010-06-09  Marco Colombo  <m.colombo@ed.ac.uk>
+
+	Updated Italian translations
+
+2010-06-09  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translations
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.2.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Pass sc_prohibit_always-defined_macros, introduce EXIT_ERROR.
+	
+	The old use of EXIT_FAILURE with a nonstandard value of 2 was confusing. 
+	It's cleaner to pick a new name when using a new value.  So I replaced most
+	occurrences of EXIT_FAILURE with EXIT_ERROR (=2), in distinction to
+	EXIT_DIFFERENCE (=1).
+	
+	sc_prohibit_always-defined_macros complains about the environ definition in
+	a comment in build-aux/warn-on-use.h which obviously doesn't make a lot of
+	sense.  We simply ignore build-aux altogether for this kind of check.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Set gnulib_dir so sc_prohibit_always_true_header_tests works.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Pass sc_prohibit_empty_lines_at_EOF syntax check.
+	
+	Except ABOUT-NLS from that check, as it is generated by gettext and
+	therefore not under our control.
+	
+	Drop empty line from end of Makefile.am.  It was there because previous
+	gettextize invocations used to append stuff to that file, and we want such
+	additions separated.  But recent gettext behaves well, so let's be clean
+	here.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Add ./ or build-aux/ to several files given as raw file names before.
+	Newly ignore build-aux/compile and lib/uniwidth/.dirstamp which occur now.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Replace strrchr with mbsrchr.
+	
+	This prevents the gnulib syntax check sc_prohibit_strings_without_use from
+	complaining about the strings.h inclusion.  Any platform where the old code
+	used to build but the new one doesn't will be considered a bug in gnulib.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Import gnulib module mbsrchr.
+	
+	We'll use it to replace a strrchr invocation that the gnulib syntax check
+	sc_prohibit_strings_without_use complains about.
+
+2010-04-09  Benno Schulenberg  <benno@vertaalt.nl>
+
+	Updated Dutch translation.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Add files generated by autopoint for gnulib.
+	
+	The autopoint from gettext 0.18 seems to create some more files, or more
+	precisely, the same files in additional directories, i.e. lib/po/ as well
+	as po/ itself.  Add them, as we have all gettext infrastructure under
+	revision control.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Upgrade to gettext-0.18.
+
+2010-05-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	daeb0e53ab0726d41bbda09ff5d70d67ddcc8f0d of the master branch, or more
+	precisely, revision f614b2a3415a22f33a46b3fa3b0cbdb9575624f4 of my own "mvg"
+	branch, available from github.
+
+2010-04-14  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Fix shell test syntax in configure script.
+
+2010-04-09  Antonio Diaz Diaz  <ant_diaz@teleline.es>
+
+	Typo in comment.
+
+2010-04-09  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore files generated by testsuite.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.1.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	e01b458f40440e64ce6f59beb0b446219bb6302d of the master branch, or more
+	precisely, revision 56a274bbc6b1c1efe8f1fca30360feb6ea5f696c of my own "mvg"
+	branch, available from github.
+
+2010-03-29  Michael Piefel  <piefel@informatik.hu-berlin.de>
+
+	Updated German translation.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Imported gnulib module strstr-simple.
+	
+	This ensures that a strstr implementation is available, without bothering
+	about its efficiency.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Resolve symlinks for PAGER when detecting less.
+	
+	E.g. on Debian, people might have /usr/bin/pager as their configured pager,
+	which is a symlink to /etc/alternatives/pager which in turn might be a
+	symlink to /usr/bin/less.  So resolving symlinks increases chances we detect
+	less.
+	
+	Loosely based on a Debian patch by Charles C. Fu, currently available from:
+	http://patch-tracker.debian.org/patch/series/view/wdiff/0.5-21/04
+	and mentioning http://bugs.debian.org/36618.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Imported gnulib module canonicalize-lgpl for realpath implementation.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Introduce --with-default-pager=PAGER configure switch.
+	
+	This might benefit distros like e.g. debian, which can configure
+	--with-default-pager=/usr/bin/pager in order to get a sane system-wide
+	default for users without PAGER environment variable.  Of course, specifying
+	--with-default-pager=/usr/bin/less or similar would be a sensible thing even
+	for many systems without configurable system-wide default pager.
+
+2010-04-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop PARAMS macro in mdiff as well.
+
+2010-03-31  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Fix missing newline in info dir entry list.
+
+2010-03-30  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated NEWS file to include 0.6.0 release.
+	
+	Yes, I know the release has been made, and the NEWS have been forgotten.
+	Still it would be good for later releases to include this information.
+
+2010-03-30  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop strstr declaration.
+	
+	Any sane system should supply a strstr implementation sane enough for our
+	application: locating "less" in the basename of the PAGER program.  We could
+	use the gnulib strstr module here, but that seems to be more concerned about
+	efficiency, and probably is overkill here.
+	
+	Taken from debian patch, author UNKNOWN, see:
+	http://patch-tracker.debian.org/patch/series/view/wdiff/0.5-21/03
+	http://bugs.debian.org/29711
+	http://bugs.debian.org/30174
+
+2010-03-30  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop PARAMS macro. Always include parameters in function prototypes.
+
+2010-03-29  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Releasing 0.6.0.
+
+2010-03-29  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated German translation.
+	
+	I checked this translation myself, and offered the resulting file to the
+	German translations team for upload to translation project.  That upload
+	hasn't happened yet, but I expect it will eventually, and I don't want to
+	delay the release for this.
+
+2010-02-16  Santiago Vila Doncel  <sanvila@unex.es>
+
+	Updated Spanish translation
+
+2010-02-14  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Dropped periods in Swedish error messages
+
+2010-02-13  Jan Djärv  <jan.h.d@swipnet.se>
+
+	Updated Swedish translations
+
+2010-02-11  Clytie Siddall  <clytie@riverland.net.au>
+
+	Updated Vietnamese translation
+
+2010-02-11  Rafał Maszkowski  <rzm@icm.edu.pl>
+
+	Updated Polish translation
+
+2010-02-11  Erwin Poeze  <erwin.poeze@yahoo.com>
+
+	Updated Dutch translation
+
+2010-02-11  Jorma Karvonen  <karvonen.jorma@gmail.com>
+
+	Updated Finnish translation
+
+2010-03-29  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	Re-imported gnulib modules based on the current revision
+	e936a81c04962903122ea0d8b6af63c5fce4beaf of the master branch, or more
+	precisely, revision fa649b55747429c1fa633047770dbd71a14d6f9a of my own "mvg"
+	branch, available from github.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Correct Compatibility documentation.
+	
+	wdiff uses whatever diff it finds, not necessarily GNU diff.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated titlepage.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Added comment lines for chapters and sections.
+	
+	This makes browsing the texinfo source a bit easier, even without the use
+	fancy outline editor features.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Various small documentation improvements.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Colored output example.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Moved examples from mdiff to wdiff.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Provide phony "manual" target to generate online manual using gendocs.sh.
+
+2010-03-11  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Import gendocs module from gnulib.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	configure is a file.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Move unify after mdiff.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Dedicate node to experimental history.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Invocation of wdiff and wdiff2.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Let makeinfo take care of pointer creation.
+	
+	Note (texinfo)makeinfo Pointer Creation:: about how this works.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Use @command, @option, @env instead of @code and @samp where appropriate.
+	
+	Package names like "diffutils" were stripped of any special formatting, but
+	padded with the word "GNU" instead. "@code{termcap}" has been left as it is.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore generated HTML documentation.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	More distinction for experimental.
+	
+	Added a few more case distinctions, and a dedicated node "Experimental".
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop sections for experimental tools in non-experimental texinfo runs.
+	
+	This only introduces guards and fixes some node pointers. It doesn't adjust
+	content yet.  Some paragraphs will need different wording under different
+	circumstances.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Introduce convenience targets to toggle experimental mode.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore generated files from tex invocation.
+	
+	These files are created when the pdf and ps targets are executed in the doc
+	directory.  As they are generated from source, we should ignore them.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Prepare autotools for conditional texinfo documentation of experimental parts.
+	
+	Introduce a new file, flags.texi, managed by autoconf.  It clears or sets a
+	single flag, EXPERIMENTAL, which can then be used to control conditional
+	content in the texinfo documentation.  This should make it easier to
+	maintain documentation for both experimental and non-experimental builds,
+	without omitting documentation or confusing users by providing documentation
+	for uninstalled tools.
+	
+	Doing even more case distinctions for the individual apps seems overkill,
+	though, so we won't go that far.
+
+2010-03-10  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	First reference to wdiff2
+
+2010-03-09  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Move wdiff before mdiff in texinfo documentation.
+	
+	As wdiff is the core product and mdiff experimental, this seems to be the
+	proper order.
+
+2010-03-09  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Set info document encoding to UTF-8.
+	
+	This allows us to use Unicode characters in the info document, like the name
+	of François.
+
+2010-02-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop redundant localedir definition.
+	
+	Recent automake already defines localedir, so there is no need for us to do
+	the same again.
+
+2010-02-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Reintroduce termcap configuration.
+	
+	Search the following libs for a tputs function: termcap termlib ncursesw and
+	ncurses.  The first library to provide the tputs function will be linked in,
+	and termcap support enabled.  There is a --with-termcap configure option to
+	override this behaviour, e.g.  using --without-termcap or --with-termcap=foo
+	to select libfoo instead of an autodetected library.
+	
+	The include statements have been adjusted to include term.h as well, as the
+	ncurses man page for tputs recommends.  Configure doesn't check if the
+	headers actually declare tputs; we simply assume the compiler will complain
+	if things don't work out as expected.
+
+2010-02-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Reindent preprocessor directives for mdiff as well.
+
+2010-02-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Reindent preprocessor directives.
+	
+	This way the #endif properly line up with the corresponding #if and #else. 
+	Now you can see more easily that tgetstr() gets declared if HAVE_TPUTS and
+	not HAVE_TERMCAP_H.
+
+2010-02-27  Santiago Vila  <sanvila@debian.org>
+
+	Typo in README
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Disable fuzzy translations again.
+	
+	Had enabled fuzzy translations for the 0.5.95 pre-release only.  The
+	intention was to give translators a better idea of what their translations
+	will look like, and other users a better idea of what translations are there
+	in theory.  Shouldn't use fuzzy translations in a final release, though.
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	wdiff 0.5.95 pre-release
+	- translation improvements, many translations now fuzzy instead of missing
+	- enabled use of fuzzy translations for this specific pre-release
+	- introduced --enable-experimental configure switch
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Introduce --enable-experimental configure switch.
+	
+	This switch controls installation of mdiff, unify and wdiff2. That way, an
+	unconfigured installation will only install wdiff, avoiding flooding the
+	maintainers with bug reports about applications they themselves (yes, this
+	includes me) don't really understand (yet).  On the other hand, the code
+	does get released to a somewhat wider audience if it is included in the next
+	wdiff release, so giving interested parties a way to toy with these apps
+	might be a good thing and help their development.
+	
+	* configure.ac: generate substitutions from senable switch
+	* man/Makefile.am, src/Makefile.am: use substitutions to decide what to install
+	* man/Makefile.am, src/Makefile.am: auto-build binaries for help2man so that
+	"make dist" without preceding "make" will succeed
+	* README: Mention new flag, cleaned up some obsoleted information
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Added some copyright notices
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Let "make dist" rewrap message files.
+	
+	It seems that the message merging process tries to avoid long lines in the
+	po file sources.  Shouldn't change anything for the logical strings. 
+	Committing the changes anyway so we won't have to revert or ignore po files
+	all the time.
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	po-file handling perl scripts: copyright, documentation, added to dist.
+	
+	Added a copyright comment as well as some pod documentation to the
+	print-po.pl script and the msgitm.pm library it uses.  Adjusted Makefile.am
+	to include these two scripts, as they might be useful for translators, and
+	as translators from TP usually work on released tarballs not repository
+	checkouts.
+
+2010-02-02  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Better handling of escape sequences.
+	
+	Now escape sequences are evaluated by perl. This handles \\[\\nt"] at the
+	moment, but can easily be extended to any other escape sequence that can be
+	matched by the regular expression.  Not much point in expanding stuff like
+	\a or \r, though.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Change wdiff-bugs@iro.umontreal.ca to wdiff-bugs@gnu.org
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Wrapped another few overlong lines.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Adjust proper alignment of usage help for all commands.
+	
+	To faciliate this, I've added a perl script which simply prints all msgstr
+	from a po file, in the order in which they are referenced in the source
+	files.  That gives all usage strings one after the other.  I also
+	implemented some primitive detection of overlong lines, and wrapped some
+	translations to fit common terminal widths.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Adjust case of auto-pager short option.
+	
+	It's -A in mdiff and -a in wdiff and wdiff2.  The heuristics that migrated
+	previous translations in some cases used the long option alone to identify a
+	translation, causing this kind of issue.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Align wdiff usage text.
+	
+	Some changes to indentation to ensure that "wdiff --help" looks sane in most
+	languages.  This only aligns translated strings, untranslated English
+	messages might have a different alignment and therefore break the format. 
+	Other tools besides wdiff might still have unaligned help.  In some cases
+	the situation might even have deteriorated due to alignment of shared
+	strings to now fit wdiff alone.  Aligning them all seems like too much work
+	just now, as everything besides wdiff is kind of experimental in any case.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Manually adjust translations to pass gmsgfmt checks.
+	
+	As entries are still fuzzy, gmsgfmt won't deal with them by default.  But
+	removing all gmo files and running 'GMSGFMT="gmsgfmt -f" update-gmo' listed
+	me one file with problems after the other, until at last I had all of them
+	adjusted.  As I don't speak most of the languages I edited, translators
+	should still have a final look at everything marked fuzzy.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	More elaborate automatic translation adjustment.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Try to automatically adjust translations for split usage help.
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Merged translations via make dist
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore gnulib-related generated files
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Have configure create lib/po/Makefile
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Avoid syntax check complaints
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop gnulib from main package po files
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Have gnulib translations in their own dir, lib/po
+
+2010-02-01  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated from translation project.
+
+2010-01-27  Jim Meyering  <jim@meyering.net>
+
+	maint: remove a signle trailing blank
+	
+	* Makefile.am (EXTRA_DIST): Remove trailing blank,
+	so that "make syntax-check" passes once again.
+
+2010-01-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib
+
+2010-01-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	New tool to help updating gnulib
+
+2010-01-27  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Fix length restriction on temporary file name.
+	
+	Older code used a fixed char array of length L_tmpnam for temporary file
+	names and their templates.  This is WAY to short; on my GNU Linux system
+	L_tmpnam was 20.  Instead of raising that limit to some other arbitrary
+	value, I decided to dynamically allocate memory for the temporary filename
+	instead.
+	
+	Fixes a bug reported by Karl Berry:
+	http://lists.gnu.org/archive/html/wdiff-bugs/2010-01/msg00001.html
+
+2010-01-25  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Generate ChangeLog from bzr commit messages.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	wdiff 0.5.94 pre-release
+	- many small changes to translatable messages
+	- wdiff: buffer non-seekable input
+	- wdiff: accept unified diff as input
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore generated lib/configmake.h
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Converted NEWS to outline format for Emacs
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Unify wording of --help and --version option descriptions.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Adjust copyright lines.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Style improvements regarding memory management.
+	
+	Now we no longer cast allocated memory explicitely, as void* will cast to
+	anything automatically.  Neither do we check that pointers are non-NULL
+	before freeing them, as free(NULL) is defined to be a no-op.  Corresponding
+	syntax checks have been enabled.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Moved VC_LIST_EXCEPT exceptions from .x-* files to cfg.mk.
+	
+	This is much cleaner, as it avoids having an extra revision-controlled file
+	for every rule with exceptions.  The old exception files are still supported
+	(and suitable if you happen to have long lists of such rules).  Therefore
+	the change is backwards-compatible and thus suitable for inclusion into
+	gnulib as well.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Improved style of config.h inclusion.
+	
+	This drops guards around the config.h include statements.  It also enables
+	the corresponding syntax checks and configures system.h as an alternative to
+	config.h, which is OK as system.h includes config.h at its very top.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Update list of gnulib-generated files.
+	
+	Seems our list of files generated by gnulib at configure-time and ignored by
+	bzr was out of date.  Now I've got a tool to maintain it.  Also added a few
+	missing files, which used to be generated in the past but seem to be simply
+	imported as-is now.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Clean up include blocks.
+	
+	Simply include unistd.h and sys/stat.h and let gnulib take care of the rest.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Improve style of error invocations.
+	
+	Now all error messages are lower-case and without a period at the end. 
+	Furthermore, EXIT_FAILURE is used instead of the magic constant 1. 
+	Corresponding gnulib syntax checks have been enabled.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Moved auxiliary build files to build-aux directory.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Avoid self-reference of DEFS make variable.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Update gnulib.
+	
+	This update includes 4a24fcd6cf5620964e71361c57c2b273225dc47a:
+	"Avoid a link error due to the __printf__ symbol."
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Improvements and bug fixes to maint.mk.
+	
+	I've sent these fixes to bug-gnulib@gnu.org as well, and I'd expect them to
+	end up in gnulib one day.  Including them into wdiff might help transfer
+	ownership of my changes to the FSF without additional paperwork.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Enable gnulib maintainer-makefile.
+	
+	Also configured some things so that syntax checks won't fail. The list of
+	skipped syntax checks in cfg.mk is actually quite long and should be reduced
+	in the near future.  Some other syntax checks I've heeded already, which
+	explains modifications to some other source files.
+	
+	As I assume noone will apply an ancient patch to autoconf anymore in any
+	case, I'm dropping that (syntactically offensive) autoconf patch.  Anything
+	modern autoconf still can't handle should be dealt with in autoconf itself.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore release tarballs.
+
+2010-01-21  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Upgrade to gettext-0.17.
+	
+	As gnulib-tool has to be run after gettextize/autopoint, because it
+	overwrites some files from gettext, we have to have the gettext
+	infrastructure in repository as long as we have gnulib there.  Probably best
+	this way, because gnulib officially only supports latest gettext.
+	
+	Activated the gettext gnulib module as well.  This is in order to avoid
+	problems with gnulib overwriting m4 files that gettext depends on with a
+	version that unmodified gettext no longer can cope with.  In that situation,
+	I'd now expect gnulib to provide adjusted gettext files, resolving any such
+	issues.
+
+2010-01-20  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Reindented wdiff.c.
+	
+	Changes suggested by GNU indent, but reviewed and adjusted manually.
+
+2010-01-19  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Removed some more auto-generated files.
+	
+	All these files are automatically regenerated at one point or another. 
+	Little point in keeping them all in the repository, as they aren't to be
+	edited manually in any case.
+
+2010-01-19  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Have automake add missing files.
+
+2010-01-19  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Change GPL version to 3 or later.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Imported gnulib modules locale and sys_wait.                                              
+	
+	As we added those headers to several files recently, it seems prudent to
+	have gnulib ensure they exist.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignoring a few more gnulib-generated files.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Updated gnulib.
+	
+	This is the result of a simple gnulib-tool --import. Haven't looked too
+	closely, but I simply expect it to work.  The gnulib git tree was used as of
+	revision 3b1d015225dd896c76cac5318db7982944aea238 (2010-01-17).
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Drop several generated files, especially build files.
+	
+	Instead I've added a script, autogen.sh, that generates all necessary build
+	files using the autotools installed on the client's system.  Calling that
+	from a fresh working tree should get your working tree into something on
+	which the usual compile and make build process works as expected.  I expect
+	that the release tarballs will contain those files automatically, so this
+	change only affects people building from a repository snapshot.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Fix a bunch of errors reported by gcc -Wall.
+	
+	There were some missing header inclusions. For now I've included the
+	headers, but if someone reports portability issues, we might have to check
+	for them in configure and maybe provide fallbacks if they are unavailable.
+	
+	There were also some variables which gcc reports might get used
+	uninitialized.  I initialized them to 0 or NULL, but I'm far from certain
+	that this is what was originally intended.  Might as well be that they are
+	an indication of more serious errors in those functions.
+	
+	Most other changes are cosmetic things to prevent warnings, like added
+	braces and the likes.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Adjust a few printf conversions to avoid compiler warnings.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Added myself and Denver Gingerich to AUTHORS.
+
+2010-01-18  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Split Usage messages for easier translation.
+	
+	Now there is a separate string for every line of Usage message output. That
+	way, new options might be added in the future without invalidating the
+	messages for existing options.  Furthermore it's now easier to share common
+	options between different executables.
+	
+	The options themselves haven't been split, as arguments to some options
+	require translations, and as having them translated separately makes it
+	really difficult to align all options in a pleasing way, especially with
+	multi-byte encodings or double-width logograms.  So translators have both
+	the freedom and the responsibiluty to manage column alignment for their
+	language.
+	
+	This change also turns a lot of "#if 0 ... #endif" into "/*** ... ***/" in
+	order to avoid unneccessary translations for these options.  This is in
+	response to an email by Benno Schulenberg:
+	http://lists.gnu.org/archive/html/wdiff-bugs/2008-06/msg00003.html
+
+2010-01-06  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Reindent.
+
+2010-01-06  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Allow unified diff as input.
+	
+	This change introduces a new flag, --diff-input (or -d), which will allow a
+	single unified diff as input.  Two distinct files will be created from this
+	and passed on to the normal wdiff comparison.
+	
+	See also http://lists.gnu.org/archive/html/wdiff-bugs/2009-04/msg00000.html
+
+2010-01-06  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Ignore auto-generated files.
+	
+	This list matches all files generated on my system during configure, make
+	and make distcheck, with the obvious exception of the distribution tarball. 
+	Many other files are modified in the process, so this list certainly doesn't
+	match all auto-generated files.
+
+2009-12-15  Martin von Gagern  <Martin.vGagern@gmx.net>
+
+	Handle non-seekable input.
+	
+	In particular this allows the use of shell process substitutions as input.
+
+2008-11-16  denverg
+
+	- fix "make check" so that it uses the newly-compiled wdiff binary instead of
+	searching the PATH for it
+	- this issue was first mentioned in the 0.5.93 release notes
+	- issue also noted by Nelson H. F. Beebe:
+	
+	http://lists.gnu.org/archive/html/wdiff-bugs/2008-06/msg00005.html
+	
+	- the fix was created with the help of Ralf Wildenhues' suggestion to use
+	AUTOTEST_PATH on the Autoconf list:
+	
+	http://lists.gnu.org/archive/html/autoconf/2008-06/msg00075.html
+	
+	- the appropriate AUTOTEST_PATH value was determined using the description of
+	AUTOTEST_PATH in the Autotest documentation:
+	
+	http://www.gnu.org/software/autoconf/manual/html_node/testsuite-Invocation.html
+
+2008-11-16  denverg
+
+	- fix libintl linking problems on Cygwin and Mac OS X
+	- first reported by Jari Aalto using Cygwin:
+	
+	http://lists.gnu.org/archive/html/wdiff-bugs/2007-08/msg00007.html
+	
+	- also reported by Christopher Vollick using Mac OS 10.4.11 with the following
+	error output:
+	
+	/usr/bin/ld: Undefined symbols:
+	_libintl_bindtextdomain
+	_libintl_gettext
+	_libintl_textdomain
+	
+	- this fix has been confirmed to work on Mac OS 10.4.11
+
+2008-11-16  denverg
+
+	- update to gnulib 20080701, automake 1.10.1, and autoconf 2.61; used the
+	following commands:
+	
+	$ [gnulib-tool command from lib/Makefile.am header]
+	$ aclocal -I m4
+	$ autoreconf
+	$ autoconf
+	$ automake
+	
+	- remove #include for getline.h in mdiff.c; this is no longer needed because
+	getline is available from stdio.h
+
+2008-06-20  denverg
+
+	wdiff 0.5.93
+	- this version contains the following fixes:
+	- split wdiff and wdiff2 help strings to facilitate translation
+	- update gnulib modules to gnulib 2007-05-28
+	- add getopt and regex gnulib modules for compiling without glibc
+	- fix compiler warnings with GCC 3.4.2 on Solaris 8
+	- add manpages to the distribution so users don't need help2man
+	- for a complete description of the fixes, see the commit logs between this
+	revision and the RELEASE_0_5_92 tag
+
+2008-06-20  denverg
+
+	- update po files based on previous commit (localize "'\n" and add note for
+	translators that it's part of the previous string)
+
+2008-06-20  denverg
+
+	- localize "'\n", which is the end of "Launching `mdiff [args]", as recommended
+	by Benno Schulenberg
+	- add note for translators that the two strings are linked
+	- chose not to combine into one string because that would have required some
+	extra memory and possibly a lot (if there were lots of arguments); it's much
+	easier to just send it to the output stream and forget about it
+
+2008-06-20  denverg
+
+	- update po files for previous commit (splitting wdiff and wdiff2 help strings)
+
+2008-06-20  denverg
+
+	- split help string for wdiff and wdiff2 into multiple parts as suggested by
+	Benno Schulenberg
+	- this will cause the common parts of the help strings to be combined for
+	translators
+	- the help string has been changed recently (to change -V to -v) so now is a
+	good time to split the string
+	- the next commit will update the po files
+
+2008-06-20  denverg
+
+	- update po files with new line numbers for wdiff.c and wdiff2.c, changed by
+	previous commit to fix compiler warnings
+	- add manpages so that users can check out from CVS and not need help2man;
+	originally reported by Christopher Vollick
+
+2008-06-20  denverg
+
+	- fix warnings when compiling with GCC 3.4.2 on Solaris 8:
+	
+	warning: passing arg 2 of `rpl_getopt_long' discards qualifiers from pointer target type
+	
+	- using fix by Eric Blake for m4's main.c described at:
+	
+	http://lists.gnu.org/archive/html/m4-patches/2006-06/msg00024.html
+
+2008-06-20  denverg
+
+	- include manpages in the distribution package
+	- before this fix, manpages were being generated at compile time, which caused
+	systems without help2man to fail during the make step
+	- reported by Christopher Vollick
+
+2008-06-20  denverg
+
+	- update autotools-generated scripts after adding the getopt and regex modules
+	from gnulib in the last commit
+
+2008-06-20  denverg
+
+	- add getopt and regex modules from gnulib; these are required on systems that
+	do not have the glibc extensions
+	- reported by Christopher Vollick after he received compile errors when trying
+	to build on Solaris 8
+	- autotools-generated scripts will be updated in the next commit
+
+2008-06-20  denverg
+
+	- update scripts after gnulib 2007-05-28 update ("autoreconf; autoconf;
+	automake")
+
+2008-06-20  denverg
+
+	- update to gnulib 2007-05-28 ("gnulib-tool --import")
+	- autotools update ("autoreconf; autoconf; automake") will be in next commit
+
+2008-06-19  denverg
+
+	wdiff 0.5.92
+	- bump version; along with the expected effects, it also fills in some empty
+	fields in tests/testsuite and tests/package.m4
+	- see commit logs since the RELEASE_0_5_91 tag for a list of the fixes in 0.5.92
+
+2008-06-19  denverg
+
+	- keep all files resulting from "./configure; make dist; make distclean" and
+	nothing more
+	- this makes it easier for packagers and other keeners to keep up with the
+	latest build on their own machine
+	- this has the side-effect of updating all the po files and wdiff.pot as well
+	as doc/version.texi
+	- reported by Santiago Vila:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-06/msg00012.html
+
+2008-06-19  denverg
+
+	- use mkstemp instead of tmpnam to eliminate race condition
+	- added create_template_filename to find an appropriate temporary directory
+	- reported by Karl Berry and Debian team:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-07/msg00005.html
+	- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=425254
+
+2008-06-19  denverg
+
+	- add mdiff binary to "make install" as reported by Benno Schulenberg at:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-10/msg00000.html
+	- error report:
+	
+	Upon installation, wdiff forgets to install the mdiff program,
+	although it does install the man page and Info document for it.
+
+2008-06-19  denverg
+
+	- fix some errors in the documentation; reported by Benno Schulenberg at:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-10/msg00000.html
+	- the error report:
+	
+	In wdiff.texi the --statistics option for mdiff is described twice.
+	Also --help and --version occur twice; their second occurrences are
+	straight copies from the wdiff section, and mistakenly mention -h
+	and -V as synonyms -- these work for wdiff, but not for mdiff.
+	
+	The Info doc further mistakenly mentions -c as synonym for
+	--ignore-case (should be -i, also for wdiff), and -a as synonym
+	for --autopager (should be -A, but only for mdiff).  It looks like
+	there may be several more errors like this.
+	
+	
+	(note: the --statistics option was completely removed from the mdiff
+	documentation because mdiff does not have such an option)
+
+2008-06-18  denverg
+
+	- import new and updated translations from the Translation Project
+
+2008-06-18  denverg
+
+	- update wdiff.texi to new conventions and regenerate wdiff.info; patch by
+	Karl Berry:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-08/msg00001.html
+	- description of change:
+	
+	Some simple diffs for the wdiff manual.
+	
+	1) use the standard @dircategory/@direntry cmds instead of the old (very
+	old) INFO-DIR-ENTRY stuff.  (With the category names and alignments set
+	to match other packages.)
+	
+	2) use @copying instead of @ifinfo.
+	
+	3) move @contents to after the title page where it belongs.
+
+2008-06-18  denverg
+
+	- set textdomain; patch by Benno Schulenberg:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-09/msg00006.html
+	- "The output messages of 'wdiff' don't actually get translated, as wdiff
+	forgets to set its textdomain."
+
+2008-06-18  denverg
+
+	- update wdiff.info to reflect new version of makeinfo (was using 3.12i; now
+	using 4.8) and change in --version short option from -V to -v (see last
+	commit)
+
+2008-06-18  denverg
+
+	- change the --version short option -V to -v for consistency with GNU diff and
+	the wdiff 0.5 manpage; reported at:
+	- http://lists.gnu.org/archive/html/wdiff-bugs/2007-09/msg00002.html
+	- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=438461
+	- wdiff.info still needs updating; this will be done in the next commit because
+	it contains a lot of unrelated changes due to a new version of makeinfo
+
+2008-06-18  denverg
+
+	- change return type of main from void to int in wdiff and wdiff2; fixes
+	compiler warning
+
+2008-06-18  denverg
+
+	- remove clean-local's dependence on the non-existent clean-local-legacy target
+	- this dependence was introduced when copying in the test suite rules from
+	libtool, which has a set of rules for legacy tests (including
+	clean-local-legacy); wdiff does not have any legacy tests
+
+2008-06-18  denverg
+
+	- merging translations with template file (msgmerge --update)
+	- with the updates in CVS, the make step will be faster because the
+	msgmerge --update is not required at build time
+
+2007-11-19  denverg
+
+	- back out gnulib updates; these cause autoreconf to fail because the
+	gnulib updates were incomplete (did not add/update all files)
+	- not fixing gnulib update because the gnulib files will eventually be
+	migrated out of CVS
+
+2007-11-18  denverg
+
+	- update gnulib files to those found in gnulib 2007-05-28
+
+2007-07-11  denverg
+
+	wdiff 0.5.91 (continued)
+	- adding files that were accidentally left out of the last commit
+
+2007-07-11  denverg
+
+	wdiff 0.5.91
+	- replaced old autotools scripts with new scripts created from scratch
+	to work with more recent versions of the autotools
+	- replaced files in the lib directory with their Gnulib counterparts
+	- moved readpipe.c and writepipe.c to src because they Gnulib does not
+	appear to provide equivalent functionality
+	- modified the test scripts to work with a more recent autom4te version
+	- some syntax was not recognized by the newer autom4te
+	- moved i18n directory to po and updated i18n files to reflect changes
+	in gettext
+	- added man directory and necessary Makefiles to create man pages
+
+2007-06-22  denverg
+
+	wdiff 0.5.90
+	- updated mailing list address for all files except i18n (these will be
+	fixed later)
+	- starting to use recommended pretest version number convention for GNU
+	packages (x.y.90)
+
+2007-06-20  denverg
+
+	wdiff 0.5.4-pre3
+	- correct build problems by resetting timestamps for several files
+	within the configure script
+	- this is done so that people checking out from CVS will have the
+	correct timestamps because CVS does not keep modified dates
+	- ideally we wouldn't need this, but it looks like autoconf, automake,
+	or some other utility requires the timestamps to be a certain way or
+	it complains loudly
+	- revert i18n/sv.mo to 0.5g version (not sure why it had changed)
+
+2007-06-19  denverg
+
+	wdiff 0.5.4-pre2
+	- replaced Makefile.in, aclocal.m4, configure, and configure.in with
+	versions from 0.5g
+	- for some reason, these had been replaced by freshly-generated files,
+	which seem to cause problems with the build
+
+2007-06-19  denverg
+
+	wdiff 0.5.4-pre1
+	- updating to wdiff 0.5g code from Francois Pinard
+	- complete list of changes will be available in the final 0.5.4 commit
+	- this version currently has some build issues, which will be described
+	on the mailing list (wdiff-bugs@gnu.org)
+
+2007-06-19  denverg
+
+	- removing files deleted in 0.5.4 because there are problems committing
+	when a file has been deleted but was updated since that point (CVS
+	reports a conflict, which appears to be difficult to solve)
+
+2007-06-17  denverg
+
+	- change version from 0.5.1 to 0.5.3 to prevent ambiguity
+	- 0.5.1 is referenced in the de, fr, no, and pl .po files in the i18n
+	directory of wdiff 0.5g
+	- 0.5.2 is referenced in the cs, es, nl, ru, and sv .po files in the
+	i18n directory of wdiff 0.5g
+	- 0.5.1 and 0.5.2 are referenced in the BACKLOG file of wdiff 0.5g
+	- none of the above 0.5.1 or 0.5.2 are related to this version (now
+	0.5.3); they relate to a separate branch (0.5g) which will be merged
+	into this tree later
+
+2007-06-16  denverg
+
+	- updated version strings (from 0.5 to 0.5.1)
+	- updated ChangeLog and NEWS with changes between 0.5 and 0.5.1
+
+2007-06-15  denverg
+
+	wdiff 0.5.1
+	- changes from wdiff 0.5
+	- updated license notices to reflect new FSF address
+	- added license notices to files that did not have them
+
+2007-07-10  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (EXTRA_DIST): New variable.
+	* configure.ac (AC_CONFIG_FILES): Add po/Makefile.in.
+	(AM_GNU_GETTEXT_VERSION): Bump to 0.16.1.
+
+2007-06-19  Denver Gingerich (denver@ossguy.com)
+
+	* Version 0.5.4.
+
+	* ChangeLog: relevant entries moved from root ChangeLog to ChangeLog
+	files in subdirectories (such as src, lib, etc.)
+
+	* : TODO: add relevant entries here
+
+2007-06-17  Denver Gingerich (denver@ossguy.com)
+
+	* Version 0.5.3, changes are relative to Version 0.5 (see 1994-11-05).
+
+	* acconfig.h, aclocal.m4, cbars.sh, c-boxes.el, checkit, configure,
+	configure.in: Add license notices.
+
+	* COPYING: Update to new revision of GPL (version 2, revision 3).
+
+	* error.c, getopt1.c, getopt.c, getopt.h, Makefile.in, pathmax.h,
+	readpipe.c, strstr.c, texinfo.tex, wdiff.c, writepipe.c, xmalloc.c:
+	Update license notices to reflect new FSF address.
+
+1999-07-05  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Do not call fp_PROG_ECHO, as AT_CONFIG does it.
+
+	* Makefile.am, acconfig.h, configure.in: Prepare for fp_WITH_GETTEXT.
+
+1998-12-07  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in (ALL_LINGUAS): Add Russian.
+
+1998-11-18  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Version 0.5g.
+
+1998-11-16  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Version 0.5e.
+
+	* configure.in: Use AT_CONFIG.
+	Substitute tests/atconfig rather than tests/preset.
+
+1998-11-13  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.am (SUBDIRS): Add m4.  Use -I m4 on aclocal.
+
+	* PATCHES-AC: New file, from elsewhere.
+	* Makefile.am (EXTRA_DIST): Adjusted.
+
+	* README-mdiff: New file.
+	* Makefile.am (EXTRA_DIST): Adjusted.
+
+	* configure.in: Substitute in m4/Makefile.
+	Use jmFUNC_MALLOC and jm_FUNC_REALLOC.
+	* acconfig.h: Describe malloc and realloc.
+
+	* missing: New file, from elsewhere.
+
+	* configure.in: Version 0.5d.
+
+1997-02-12  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Derive src/cbars from src/cbars.in.
+
+	* configure.in: Derive tests/preset from tests/preset.in.
+	Check how to use echo with newlines suppressed.
+	* acinclude.m4: Add definition for fp_PROG_ECHO.
+
+	* configure.in: Cleanup tputs detection.  Do not just consider we
+	need -ltermlib on Xenix and -ltermcap everywhere else.  Instead,
+	check for LIB.h only if tputs if found in -lLIB, for LIB in
+	termcap, termlib, curses and ncurses.
+	* acconfig.h: Add documentation for HAVE_TPUTS.
+
+1997-02-11  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Adjusted for Automake, and latest PO files.
+	* Makefile.am: New files.
+	* acinclude.m4: New file, assembled from Jim's collection.
+	* acconfig.h: Adjusted for gettext.
+
+1996-09-06  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in (ALL_LINGUAS): Add nl, pl.  Replace cz by cs.
+
+1995-06-22  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Use AC_TYPE_SIZE_T.
+
+1995-03-26  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Define SCRIPTS separately from PROGRAMS.  Use
+	fp_PROG_INSTALL instead of AC_PROG_INSTALL.
+	* Makefile.in: Adjusted accordingly.
+
+1995-03-19  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Remove GLOCALE, add LINGUAS, use fp_WITH_CATALOGS.
+	* Makefile.in: Modify accordingly.
+	* acconfig.h: Add description for WITH_CATALOGS.
+
+1995-02-24  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Put gdiff test in parentheses, because Bourne
+	shell otherwise complains about an inexisting program.
+	Reported by Kaveh R. Ghazi.
+
+1995-02-21  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in, Makefile.in: Replace `date' by `echo timestamp'.
+	Reported by Greg McGary and Jim Meyering.
+
+1994-12-01  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in, Makefile.in, acconfig.h: Rename PRODUCT to PACKAGE.
+
+1994-11-26  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Check for <libintl.h> and <locale.h>.
+
+1994-11-11  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Check libraries before functions, else there is
+	little chance that tputs will ever be found in -ltermcap.
+	Reported by Andreas Schwab.
+
+1994-11-05  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Release 0.5.
+
+1994-11-02  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Check for const only after having found possible
+	ANSIfying compiler flags, this is of no use to check it before.
+
+1994-11-01  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in: Clean up, following the one in shar utilities.
+	I will not detail all the changes here.
+	* configure.in: Likewise.
+	* acconfig.h: New file.
+
+1994-04-13  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in (Makefile, etc.): Adapt for Autoconf 1.8.
+
+1994-03-22  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Use AC_PROGRAMS_PATH instead of AC_PROGRAMS_CHECK,
+	while defining DIFF and PAGER.  Add diff to the programs tested,
+	so its full path is saved.  Avoiding SGI gdiff, define DIFF to
+	non-pathed diff, instead of empty.
+
+1993-12-24  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in: General cleanup.  Handle .stamp-h.in,
+	mkinstalldirs, install.sh, FAQ and HINTS.
+	* configure.in: Check for ranlib.
+	* mkinstalldirs, install.sh: New, from elsewhere.
+
+	* FAQ, HINTS: New files, for alleviating README a little.
+
+1993-06-09  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in (dist): Replace "echo `pwd`" by a mere "pwd".
+	Create a gzip file.
+
+1993-02-27  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Use AC_HAVE_LIBRARY for -lmalloc, instead of
+	explicit code.
+
+1993-02-06  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in: In dist goal, ensure 777 mode for directories, so
+	older tar's will restore file modes properly.
+
+1993-01-07  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in: Replace -DHAVE_CONFIG_H back to $(DEFS), since
+	Autoconf now handles this appropriately.
+
+1993-01-01  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in: Using autoheader, derive config.h.in from
+	configure.in.  Distribute config.h.in.
+	Use config.status for reconstructing config.h from config.h.in.
+	Remove config.h in distclean.
+	* configure.in: Create config.h from config.h.in.
+
+1992-12-30  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Force xmalloc.o in whenever alloca.o is needed.
+	Reported by Nelson H.F. Beebe.
+
+	* configure.in: Use AC_VPRINTF, check for strerror().
+
+1992-12-23  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Release 0.04.
+
+	* Makefile.in: Some cleanup before the release.
+
+1992-12-21  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in: Distribute the THANKS file.
+
+	* Makefile.in: Do not distribute collate.el, which lacks the
+	required Copyright assignment to the FSF.
+
+1992-12-05  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in (realclean): Remove configure.
+
+	* configure.in: Use AC_ISC_POSIX for defining -posix if necessary.
+	Reported by Karl Berry.
+
+1992-11-23  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in (dist): Get .fname from the current directory name,
+	instead of from version.c.  I need updating many files manually,
+	when the version changes, version.c is just one of them.
+
+	* cbars.sh: New.  By default, cbars is not part of PROGS.
+	* Makefile.in: Prepare, install, and distribute it.
+
+1992-11-21  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Use AC_CONST.
+
+	* configure.in: Avoid gdiff for X as found on SGI systems.  The
+	test presumes gdiff returns non-zero status if DISPLAY is defined
+	to be empty.
+	Reported by Jim Meyering.
+
+1992-11-13  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Makefile.in (dist): chmod a+r before making the tar file.
+
+	* aclocal.m4: Update FP_STDC_CHECK, replacing by FP_PROTOTYPES.
+	* configure.in: Adjust accordingly.
+
+1992-08-23  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Split FP_STDC_CHECK out into aclocal.m4.
+	* aclocal.m4: New.
+	* Makefile.in: Distribute aclocal.m4.
+
+1992-08-19  François Pinard  <pinard@iro.umontreal.ca>
+
+	* collatew.el: New, generalizes Emacs LISP `compage-windows'.
+	* Makefile.in: Distribute collatew.el.
+	Reported by James Ganong.
+
+	* configure.in: To define DIFF, also try gnudiff and diffgnu, not
+	only gdiff and diff.
+
+1992-08-18  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Release 0.03 to alt.sources and ftp.uu.net:/tmp.
+
+	* configure.in: Add FP_STDC_CHECK, then use it.  Add AC_PROG_LEX.
+
+	* Makefile.in: Various corrections for being truly able to make in
+	subdirectories.
+
+1992-08-17  François Pinard  <pinard@iro.umontreal.ca>
+
+	* configure.in: Check for improper `const' support.
+
+	* configure.in: Check for alloca.
+
+1992-08-12  François Pinard  <pinard@iro.umontreal.ca>
+
+	* Release 0.01 to alt.sources and ftp.uu.net:/tmp.
+
+	* configure.in: Try defining PAGER to less or more.  Also use our
+	strstr if necessary.
+
+	* configure.in: Try defining DIFF to gdiff or diff.
+	* Makefile.in: Transmit DIFF to wdiff.c, which handles it already.
+
+	* configure.in: Use -ltermlib on LIBS for Xenix, -ltermcap
+	otherwise; once this done, test for `tputs' availability.
+
+	* COPYING.LIB: New.
+	* Makefile.in: Distributing COPYING.LIB.

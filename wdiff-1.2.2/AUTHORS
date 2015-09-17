@@ -1,0 +1,21 @@
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+
+Authors of GNU wdiff.
+
+The following contributions warranted legal paper exchanges with the
+Free Software Foundation.  Also see files ChangeLog and THANKS.
+
+DIFF    Wayne Davison   1993-06-20
+Disclaims diffcvt.c.
+
+WDIFF   Francois Pinard         (Canada 1949)   1993-01-15
+Assigns wdiff.
+
+DIFFUTILS  Denver Gingerich        Canada, 1985    2007-06-25
+Assigns wdiff.
+
+WDIFF      Martin von Gagern       Germany, 1981   2009-04-24
+Assigns wdiff.

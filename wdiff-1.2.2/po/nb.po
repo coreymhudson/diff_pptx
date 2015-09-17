@@ -1,0 +1,1285 @@
+# Norwegian messages for GNU wdiff.  (bokmål dialect)
+# Copyright (C) 1996 Free Software Foundation, Inc.
+# Eivind Tagseth <eivindt@multinet.no>, 2004.
+# Karl Anders Øygard <Karl.Oygard@fou.telenor.no>, 1996.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU wdiff 0.5g\n"
+"Report-Msgid-Bugs-To: wdiff-bugs@gnu.org\n"
+"POT-Creation-Date: 2014-04-14 22:15+0200\n"
+"PO-Revision-Date: 2010-02-01 17:43+0100\n"
+"Last-Translator: Eivind Tagseth <eivindt@multinet.no>\n"
+"Language-Team: Norwegian Bokmaal <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/mdiff.c:376
+#, c-format
+msgid "%s (for regexp `%s')"
+msgstr "%s (for regulært uttrykk «%s»)"
+
+#: src/mdiff.c:891 src/wdiff.c:1473
+#, fuzzy, c-format
+msgid "only one file may be standard input"
+msgstr "Bare én fil kan være standard innkanal."
+
+#: src/mdiff.c:906 src/wdiff.c:678
+#, fuzzy, c-format
+msgid "directories not supported"
+msgstr "Filkataloger er ikke støttet"
+
+#: src/mdiff.c:1049
+#, c-format
+msgid "Reading %s"
+msgstr "Leser %s"
+
+#: src/mdiff.c:1173
+#, fuzzy, c-format
+msgid ", %d item\n"
+msgid_plural ", %d items\n"
+msgstr[0] ", %d elementer\n"
+msgstr[1] ", %d elementer\n"
+
+#: src/mdiff.c:1253
+#, c-format
+msgid "Read summary:"
+msgstr ""
+
+#: src/mdiff.c:1254
+#, fuzzy, c-format
+msgid " %d file,"
+msgid_plural " %d files,"
+msgstr[0] ", %d elementer\n"
+msgstr[1] ", %d elementer\n"
+
+#: src/mdiff.c:1255
+#, fuzzy, c-format
+msgid " %d item\n"
+msgid_plural " %d items\n"
+msgstr[0] ", %d elementer\n"
+msgstr[1] ", %d elementer\n"
+
+#: src/mdiff.c:1648
+#, c-format
+msgid "Sorting"
+msgstr "Sorterer"
+
+#: src/mdiff.c:1665
+#, c-format
+msgid ", clustering"
+msgstr ", klynger"
+
+#: src/mdiff.c:1834 src/mdiff.c:1896
+#, c-format
+msgid ", done\n"
+msgstr ", ferdig\n"
+
+#: src/mdiff.c:1883
+#, c-format
+msgid "Sorting members"
+msgstr "Sorterer medlemmer"
+
+#: src/mdiff.c:1916 src/mdiff.c:2299
+#, c-format
+msgid "Work summary:"
+msgstr ""
+
+#: src/mdiff.c:1917 src/mdiff.c:2300
+#, fuzzy, c-format
+msgid " %d cluster,"
+msgid_plural " %d clusters,"
+msgstr[0] ", klynger"
+msgstr[1] ", klynger"
+
+#: src/mdiff.c:1919
+#, fuzzy, c-format
+msgid " %d member\n"
+msgid_plural " %d members\n"
+msgstr[0] ", %d elementer\n"
+msgstr[1] ", %d elementer\n"
+
+#: src/mdiff.c:2302
+#, c-format
+msgid " %d member,"
+msgid_plural " %d members,"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/mdiff.c:2304
+#, c-format
+msgid " %d overlap\n"
+msgid_plural " %d overlaps\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/mdiff.c:2354 src/wdiff.c:228
+#, fuzzy, c-format
+msgid "select a terminal through the TERM environment variable"
+msgstr "Velg en terminal gjennom TERM-miljøvariablen."
+
+#: src/mdiff.c:2357 src/wdiff.c:231
+#, fuzzy, c-format
+msgid "could not access the termcap data base"
+msgstr "Kunne ikke aksessere termcap-databasen."
+
+#: src/mdiff.c:2359 src/wdiff.c:233
+#, fuzzy, c-format
+msgid "terminal type `%s' is not defined"
+msgstr "Terminal-type «%s» er ikke definert."
+
+#: src/mdiff.c:3710 src/mdiff.c:3726 src/wdiff.c:1167 src/wdiff.c:1183
+#, fuzzy, c-format
+msgid "%s: %d word"
+msgid_plural "%s: %d words"
+msgstr[0] "%s: %d ord"
+msgstr[1] "%s: %d ord"
+
+#: src/mdiff.c:3714 src/mdiff.c:3730 src/wdiff.c:1171 src/wdiff.c:1187
+#, fuzzy, c-format
+msgid "  %d %.0f%% common"
+msgid_plural "  %d %.0f%% common"
+msgstr[0] "  %d %d%% felles"
+msgstr[1] "  %d %d%% felles"
+
+#: src/mdiff.c:3717 src/wdiff.c:1174
+#, fuzzy, c-format
+msgid "  %d %.0f%% deleted"
+msgid_plural "  %d %.0f%% deleted"
+msgstr[0] "  %d %d%% slettet"
+msgstr[1] "  %d %d%% slettet"
+
+#: src/mdiff.c:3720 src/mdiff.c:3736 src/wdiff.c:1177 src/wdiff.c:1193
+#, fuzzy, c-format
+msgid "  %d %.0f%% changed"
+msgid_plural "  %d %.0f%% changed"
+msgstr[0] "  %d %d%% endret"
+msgstr[1] "  %d %d%% endret"
+
+#: src/mdiff.c:3733 src/wdiff.c:1190
+#, fuzzy, c-format
+msgid "  %d %.0f%% inserted"
+msgid_plural "  %d %.0f%% inserted"
+msgstr[0] "  %d %d%% satt inn"
+msgstr[1] "  %d %d%% satt inn"
+
+#: src/mdiff.c:3764 src/wdiff.c:1233 src/wdiff2.c:172
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Prøv «%s --help» for mer informasjon.\n"
+
+#: src/mdiff.c:3769
+msgid ""
+"mdiff - Studies multiple files and searches for similar sequences, it then\n"
+"produces possibly detailed lists of differences and similarities.\n"
+msgstr ""
+"mdiff - Studerer flere filer og søker etter liknende sekvenser.  Deretter\n"
+"produseres muligens detaljerte lister med forskjeller og likheter.\n"
+
+#: src/mdiff.c:3774
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Bruk: %s [FLAGG]... [FIL]...\n"
+
+#: src/mdiff.c:3778
+#, fuzzy
+msgid ""
+"\n"
+"Operation modes:\n"
+msgstr ""
+"\n"
+"Operasjonsmodi:\n"
+
+#: src/mdiff.c:3779
+#, fuzzy
+msgid "  -h                     (ignored)\n"
+msgstr "  -h                     (ignorert)\n"
+
+#: src/mdiff.c:3780
+#, fuzzy
+msgid "  -v, --verbose          report a few statistics on stderr\n"
+msgstr ""
+"  -v, --verbose          rapporter litt statistikk på standard feilkanal\n"
+
+#: src/mdiff.c:3781 src/unify.c:295
+#, fuzzy
+msgid "      --help             display this help then exit\n"
+msgstr "      --help             vis denne hjelpteksten og avslutt\n"
+
+#: src/mdiff.c:3782 src/unify.c:296
+#, fuzzy
+msgid "      --version          display program version then exit\n"
+msgstr "      --version          vis versjonsinformasjon og avslutt\n"
+
+#: src/mdiff.c:3784
+msgid ""
+"\n"
+"Formatting output:\n"
+msgstr ""
+
+# ? "  -T, --initial-tab         få tabulatorer justert ved å sette inn en tabulator"
+# ? "  -T, --initial-tab       produser TAB isteden for startende mellomrom"
+#: src/mdiff.c:3785
+msgid "  -T, --initial-tab       produce TAB instead of initial space\n"
+msgstr ""
+
+# ? "  -l, --paginate            send utskrift videre gjennom «pr» for paginering"
+# ? "  -l, --paginate          paginér utskrift gjennom «pr»"
+#: src/mdiff.c:3786
+msgid "  -l, --paginate          paginate output through `pr'\n"
+msgstr ""
+
+#: src/mdiff.c:3787
+#, fuzzy
+msgid "  -S, --string[=STRING]   take note of another user STRING\n"
+msgstr "  -S, --string[=STRENG]   husk en annen bruker-STRENG\n"
+
+#: src/mdiff.c:3788
+#, fuzzy
+msgid ""
+"  -V, --show-links        give file and line references in annotations\n"
+msgstr ""
+"  -V, --show-links        vis fil- og linje-referanser i annoteringer\n"
+
+#: src/mdiff.c:3789
+#, fuzzy
+msgid "  -t, --expand-tabs       expand tabs to spaces in the output\n"
+msgstr ""
+"  -t, --expand-tabs       ekspander tabulatorer til mellomrom i utskrift\n"
+
+#: src/mdiff.c:3792
+#, fuzzy
+msgid ""
+"\n"
+"Debugging:\n"
+msgstr ""
+"\n"
+"Feilsøking:\n"
+
+#: src/mdiff.c:3793
+#, fuzzy
+msgid "  -0, --debugging   output many details about what is going on\n"
+msgstr "  -0, --debugging   skriv ut mange detaljer om hva som foregår\n"
+
+#: src/mdiff.c:3796
+msgid ""
+"\n"
+"Word mode options:\n"
+msgstr ""
+
+#: src/mdiff.c:3797 src/wdiff.c:1251 src/wdiff2.c:190
+#, fuzzy
+msgid "  -1, --no-deleted           inhibit output of deleted words\n"
+msgstr "  -1, --no-deleted           skriv ikke slettede ord\n"
+
+#: src/mdiff.c:3798 src/wdiff.c:1252 src/wdiff2.c:191
+#, fuzzy
+msgid "  -2, --no-inserted          inhibit output of inserted words\n"
+msgstr "  -2, --no-inserted          skriv ikke innsatte ord\n"
+
+#: src/mdiff.c:3799 src/wdiff.c:1253 src/wdiff2.c:192
+#, fuzzy
+msgid "  -3, --no-common            inhibit output of common words\n"
+msgstr "  -3, --no-common            skriv ikke felles ord\n"
+
+#: src/mdiff.c:3800
+#, fuzzy
+msgid "  -A, --auto-pager           automatically calls a pager\n"
+msgstr "  -A, --auto-pager           kaller et sideleseprogram automatisk\n"
+
+#: src/mdiff.c:3801
+#, fuzzy
+msgid "  -k, --less-mode            variation of printer mode for \"less\"\n"
+msgstr "  -k, --less-mode            variasjon av utskriftsmodus for «less»\n"
+
+#: src/mdiff.c:3802
+#, fuzzy
+msgid "  -m, --avoid-wraps          do not extend fields through newlines\n"
+msgstr "  -m, --avoid-wraps          ikke utvid felt gjennom linjeskift\n"
+
+#: src/mdiff.c:3803
+#, fuzzy
+msgid "  -o, --printer              overstrike as for printers\n"
+msgstr "  -o, --printer              bruk overstrek som for skrivere\n"
+
+#: src/mdiff.c:3804
+#, fuzzy
+msgid "  -z, --terminal             use termcap as for terminal displays\n"
+msgstr "  -z, --terminal             bruk termcap som for vanlige terminaler\n"
+
+#: src/mdiff.c:3805
+#, fuzzy
+msgid "  -O, --item-regexp=REGEXP   compare items as defined by REGEXP\n"
+msgstr ""
+"  -O, --item-regexp=REGUTTR  sammenlikn elementer som definert av REGUTTR\n"
+
+#: src/mdiff.c:3806
+#, fuzzy
+msgid "  -W, --word-mode            compare words instead of lines\n"
+msgstr "  -W, --word-mode            sammenlikn ord i steden for linjer\n"
+
+#: src/mdiff.c:3991
+#, fuzzy
+msgid "With no FILE, or when FILE is -, read standard input.\n"
+msgstr "Uten FIL, eller hvis FIL er -, les fra standard innkanal.\n"
+
+#: src/mdiff.c:3993 src/unify.c:300 src/wdiff.c:1269 src/wdiff2.c:210
+#, fuzzy
+msgid "Report bugs to <wdiff-bugs@gnu.org>.\n"
+msgstr "Rapporter feil til <wdiff-bugs@gnu.org>.\n"
+
+#: src/mdiff.c:4005
+#, c-format
+msgid "ignoring option %s (not implemented)"
+msgstr ""
+
+#: src/mdiff.c:4299
+#, fuzzy, c-format
+msgid "cannot use -z, termcap not available"
+msgstr "Kan ikke bruke -z, termcap er ikke tilgjengelig"
+
+#: src/mdiff.c:4338
+#, fuzzy, c-format
+msgid "word merging for two files only (so far)"
+msgstr "Ordfletting kun for to filer (så langt)"
+
+#: src/mdiff.c:4354
+msgid ""
+"\n"
+"Copyright (C) 1992, 1997, 1998, 1999, 2010 Free Software Foundation, Inc.\n"
+msgstr ""
+
+#: src/mdiff.c:4357 src/unify.c:407 src/wdiff.c:1395 src/wdiff2.c:131
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Dette er fri programvare; se kildekoden for kopieringsbetingelser.  Det er\n"
+"INGEN garanti; ikke engang for SALGBARHET eller EGNETHET FOR NOEN SPESIELL\n"
+"OPPGAVE.\n"
+
+#: src/mdiff.c:4360 src/wdiff.c:1398 src/wdiff2.c:134
+msgid ""
+"\n"
+"Written by Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr ""
+"\n"
+"Skrevet av François Pinard <pinard@iro.umontreal.ca>.\n"
+
+#: src/mdiff.c:4395
+#, fuzzy, c-format
+msgid "options -123RSYZ meaningful only when two inputs"
+msgstr "Flaggene -123RSYZ gir bare mening med to innkilder."
+
+#: src/pipes.c:47
+#, c-format
+msgid "error redirecting stream"
+msgstr ""
+
+#: src/pipes.c:51
+#, c-format
+msgid "failed to execute %s"
+msgstr ""
+
+#: src/unify.c:145
+#, fuzzy, c-format
+msgid "could not find a name for the diff at line %ld"
+msgstr "Kunne ikke finne et navn for diffen på linje %ld"
+
+#: src/unify.c:274
+#, fuzzy, c-format
+msgid "try `%s --help' for more information\n"
+msgstr "Prøv «%s --help» for mer informasjon.\n"
+
+#: src/unify.c:279
+msgid "unify - Transforms context diffs into unidiffs, or vice-versa.\n"
+msgstr "unift - Transformer kontekstdiffer til unidiffer, eller motsatt.\n"
+
+#: src/unify.c:283
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]... [FILE]\n"
+msgstr "Bruk: %s [FLAGG]... [FIL]\n"
+
+#: src/unify.c:286
+#, fuzzy
+msgid "  -c, --context-diffs    force output to context diffs\n"
+msgstr "  -c, --context-diffs    tving utskrift til kontekstdiffer\n"
+
+#: src/unify.c:287
+#, fuzzy
+msgid "  -e, --echo-comments    echo comments to standard error\n"
+msgstr "  -e, --echo-comments    skriv kommentarer til standard feilkanal\n"
+
+#: src/unify.c:288
+#, fuzzy
+msgid "  -o, --old-diffs        output old-style diffs, no matter what\n"
+msgstr "  -o, --old-diffs        skriv ut gammeldagse differs, uansett\n"
+
+#: src/unify.c:289
+#, fuzzy
+msgid "  -p, --patch-format     generate patch format\n"
+msgstr "  -p, --patch-format     lag patch-format\n"
+
+#: src/unify.c:290
+#, fuzzy
+msgid "  -P                     same as -p\n"
+msgstr "  -P                     samme som -p\n"
+
+#: src/unify.c:291
+#, fuzzy
+msgid "  -s, --strip-comments   strip comment lines\n"
+msgstr "  -s, --strip-comments   stripp vekk kommentarlinjer\n"
+
+#: src/unify.c:292
+#, fuzzy
+msgid "  -u, --unidiffs         force output to unidiffs\n"
+msgstr "  -u, --unidiffs         tving utskrift til unidiffer\n"
+
+#: src/unify.c:293
+#, fuzzy
+msgid "  -U                     same as -p and -u\n"
+msgstr "  -U                     samme som -p og -u\n"
+
+#: src/unify.c:294
+#, fuzzy
+msgid "  -=, --use-equals       replace spaces by equal signs in unidiffs\n"
+msgstr ""
+"  -=, --use-equals       erstatt mellomrom med likhetstegn i unidiffer\n"
+
+#: src/unify.c:298
+#, fuzzy
+msgid "If FILE is not specified, read standard input.\n"
+msgstr "Hvis FIL ikke er oppgitt, leses fra standard innkanal.\n"
+
+#: src/unify.c:389
+#, fuzzy, c-format
+msgid "unable to open `%s'"
+msgstr "Kunne ikke åpne «%s»"
+
+#: src/unify.c:395
+#, fuzzy, c-format
+msgid "only one filename allowed"
+msgstr "Bare ett filnavn er tillatt"
+
+#: src/unify.c:404
+msgid ""
+"\n"
+"Copyright (C) 1994, 1997 Free Software Foundation, Inc.\n"
+msgstr ""
+
+#: src/unify.c:410
+msgid ""
+"\n"
+"Written by Wayne Davison <davison@borland.com>.\n"
+msgstr ""
+"\n"
+"Skrevet av Wayne Davison <davison@borland.com>.\n"
+
+#: src/unify.c:548
+#, fuzzy, c-format
+msgid "invalid unified diff header at line %ld"
+msgstr "Ulovlig «unified diff»-filhode på linje %ld"
+
+#: src/unify.c:590
+#, fuzzy, c-format
+msgid "malformed unified diff at line %ld"
+msgstr "Ugyldig «unified diff» på linje %ld"
+
+#: src/unify.c:620
+#, fuzzy, c-format
+msgid "context diff missing `old' header at line %ld"
+msgstr "«Context diff» mangler «old»-filhode på linje %ld"
+
+#: src/unify.c:664 src/unify.c:683 src/unify.c:753 src/unify.c:771
+#, fuzzy, c-format
+msgid "malformed context diff at line %ld"
+msgstr "Ugyldig kontekstdiff på linje %ld"
+
+#: src/unify.c:718
+#, fuzzy, c-format
+msgid "context diff missing `new' header at line %ld"
+msgstr "Kontekstdiff mangler «new»-filhode på linje %ld"
+
+#: src/wdiff.c:582 src/wdiff.c:701
+#, c-format
+msgid "no suitable temporary directory exists"
+msgstr ""
+
+#: src/wdiff.c:1040
+#, c-format
+msgid "%s: input program killed by signal %d\n"
+msgstr ""
+
+#: src/wdiff.c:1145
+#, c-format
+msgid "%s: output program killed by signal %d\n"
+msgstr ""
+
+#: src/wdiff.c:1210 src/wdiff2.c:109
+#, fuzzy
+msgid ""
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+"(Følgende tekst er en oversettelse som *kun* gis på en informativ basis.\n"
+"For alle juridiske tolkninger gjelder den engelske originalteksten.)\n"
+"\n"
+"Dette programmet er gratis programvare.  Du kan distribuere og/eller\n"
+"modifisere det under GNU General Public License slik den er kunngjort fra\n"
+"Free Software Foundation, versjon 2 eller, valgfritt, en senere versjon.\n"
+"\n"
+"Dette programmet er distribuert med det mål at det skal være til nytte, men\n"
+"UTEN NOEN FORM FOR GARANTI, heller ingen implisert garanti for SALGBARHET\n"
+"eller EGNETHET TIL NOEN SPESIELL OPPGAVE.  Se GNU General Public License\n"
+"for nærmere detaljer.\n"
+"\n"
+"Sammen med dette programmet skulle du ha mottatt en kopi av GNU General\n"
+"Public License.  Dersom ikke, skriv til Free Software Foundation, Inc., 59\n"
+"Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+
+#: src/wdiff.c:1238
+msgid "wdiff - Compares words in two files and report differences.\n"
+msgstr "wdiff - Sammenlikn ord i to filer og rapporter forskjeller.\n"
+
+#: src/wdiff.c:1242
+#, fuzzy, c-format
+msgid ""
+"Usage: %s [OPTION]... FILE1 FILE2\n"
+"   or: %s -d [OPTION]... [FILE]\n"
+msgstr ""
+"Bruk: %s [FLAGG]... FIL1 FIL2\n"
+"      %s -d [FLAGG]... [FIL]\n"
+
+#: src/wdiff.c:1247 src/wdiff2.c:186
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr ""
+
+#: src/wdiff.c:1250 src/wdiff2.c:189
+#, fuzzy
+msgid "  -C, --copyright            display copyright then exit\n"
+msgstr "  -C, --copyright            vis copyright og avslutt\n"
+
+#: src/wdiff.c:1254 src/wdiff2.c:193
+#, fuzzy
+msgid "  -a, --auto-pager           automatically calls a pager\n"
+msgstr "  -a, --auto-pager           kaller en «pager» automatisk\n"
+
+#: src/wdiff.c:1255
+msgid "  -d, --diff-input           use single unified diff as input\n"
+msgstr ""
+
+#: src/wdiff.c:1256 src/wdiff2.c:194
+#, fuzzy
+msgid "  -h, --help                 display this help then exit\n"
+msgstr "  -h, --help                 vis denne hjelpeteksten\n"
+
+# ? "  -i, --ignore-case                    ignorer forskjeller mellom små/store \n                                       bokstaver."
+# ? "  -i, --ignore-case          skill ikke mellom store og små bokstaver"
+# ? "  -i, --ignore-case         ikke skill mellom store og små bokstaver"
+#: src/wdiff.c:1257 src/wdiff2.c:195
+msgid "  -i, --ignore-case          fold character case while comparing\n"
+msgstr ""
+
+#: src/wdiff.c:1258 src/wdiff2.c:196
+#, fuzzy
+msgid "  -l, --less-mode            variation of printer mode for \"less\"\n"
+msgstr "  -l, --less-mode            variant av printer-modus for \"less\"\n"
+
+#: src/wdiff.c:1259 src/wdiff2.c:197
+#, fuzzy
+msgid "  -n, --avoid-wraps          do not extend fields through newlines\n"
+msgstr "  -n, --avoid-wraps          ikke utvid felter gjennom newlines\n"
+
+#: src/wdiff.c:1260 src/wdiff2.c:198
+#, fuzzy
+msgid "  -p, --printer              overstrike as for printers\n"
+msgstr "  -p, --printer              bruk overstrike som for printere\n"
+
+#: src/wdiff.c:1261 src/wdiff2.c:200
+#, fuzzy
+msgid ""
+"  -s, --statistics           say how many words deleted, inserted etc.\n"
+msgstr ""
+"  -s, --statistics           skriv antall ord som ble slettet, satt inn, "
+"osv.\n"
+
+#: src/wdiff.c:1262 src/wdiff2.c:201
+#, fuzzy
+msgid "  -t, --terminal             use termcap as for terminal displays\n"
+msgstr "  -t, --terminal             bruk termcap som for vanlige terminaler\n"
+
+#: src/wdiff.c:1263 src/wdiff2.c:202
+#, fuzzy
+msgid "  -v, --version              display program version then exit\n"
+msgstr "  -V, --version              vis programversion og avslutt\n"
+
+#: src/wdiff.c:1264 src/wdiff2.c:203
+#, fuzzy
+msgid ""
+"  -w, --start-delete=STRING  string to mark beginning of delete region\n"
+msgstr "  -w, --start-delete=STRENG  streng som markerer start på sletting\n"
+
+#: src/wdiff.c:1265 src/wdiff2.c:204
+#, fuzzy
+msgid "  -x, --end-delete=STRING    string to mark end of delete region\n"
+msgstr "  -x, --end-delete=STRENG    streng som markerer slutt på sletting\n"
+
+#: src/wdiff.c:1266 src/wdiff2.c:205
+#, fuzzy
+msgid ""
+"  -y, --start-insert=STRING  string to mark beginning of insert region\n"
+msgstr "  -y, --start-insert=STRENG  streng som markerer start på innsetting\n"
+
+#: src/wdiff.c:1267 src/wdiff2.c:206
+#, fuzzy
+msgid "  -z, --end-insert=STRING    string to mark end of insert region\n"
+msgstr "  -z, --end-insert=STRENG    streng som markerer slutt på innsetting\n"
+
+#: src/wdiff.c:1386
+#, fuzzy, c-format
+msgid "cannot use -t, termcap not available"
+msgstr "Kan ikke bruke -t, termcap er ikke tilgjengelig"
+
+#: src/wdiff.c:1391
+msgid ""
+"\n"
+"Copyright (C) 1992, 1997, 1998, 1999, 2009, 2010, 2011, 2012 Free Software\n"
+"Foundation, Inc.\n"
+msgstr ""
+
+#: src/wdiff.c:1436 src/wdiff.c:1454
+#, fuzzy, c-format
+msgid "too many file arguments"
+msgstr "Mangler filargumenter"
+
+#: src/wdiff.c:1449 src/wdiff2.c:320
+#, fuzzy, c-format
+msgid "missing file arguments"
+msgstr "Mangler filargumenter"
+
+#: src/wdiff2.c:128
+msgid ""
+"\n"
+"Copyright (C) 1997, 1998, 1999 Free Software Foundation, Inc.\n"
+msgstr ""
+
+#: src/wdiff2.c:177
+msgid ""
+"wdiff - Compute word differences by internally launching `mdiff -W'.\n"
+"This program exists mainly to support the now oldish `wdiff' syntax.\n"
+msgstr ""
+
+#: src/wdiff2.c:182
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
+msgstr "Bruk: %s [FLAGG]... FIL1 FIL2\n"
+
+#: src/wdiff2.c:199
+msgid "  -q, --quiet                inhibit the `mdiff' call message\n"
+msgstr ""
+
+#: src/wdiff2.c:208
+msgid "This program also tells how `mdiff' could have been called directly.\n"
+msgstr ""
+
+#. TRANSLATORS: This and the next string are one message.
+#: src/wdiff2.c:332
+#, fuzzy, c-format
+msgid "Launching `%s"
+msgstr "Leser %s"
+
+#: src/wdiff2.c:335
+#, c-format
+msgid "'\n"
+msgstr ""
+
+#~ msgid "Read summary: %d files, %d items\n"
+#~ msgstr "Lesesammendrag: %d filer, %d elementer\n"
+
+#~ msgid "Work summary: %d clusters, %d members\n"
+#~ msgstr "Arbeidssammendrag: %d klynger, %d medlemmer\n"
+
+#~ msgid "Work summary: %d clusters, %d members, %d overlaps\n"
+#~ msgstr "Arbeidssammendrag: %d klynger, %d medlemmer, %d overlappinger\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "  -K, --no-init-term         like -z, but no termcap init/term strings\n"
+#~ msgstr ""
+#~ "  -K, --no-init-term         som -z, men ingen termcap-init/-term-"
+#~ "strenger\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Operation modes:\n"
+#~ "  -h                     (ignored)\n"
+#~ "  -v, --verbose          report a few statistics on stderr\n"
+#~ "      --help             display this help and exit\n"
+#~ "      --version          output version information and exit\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Operasjonsmodi:\n"
+#~ "  -h                     (ignorert)\n"
+#~ "  -v, --verbose          rapporter litt statistikk på standard feilkanal\n"
+#~ "      --help             vis denne hjelpteksten og avslutt\n"
+#~ "      --version          vis versjonsinformasjon og avslutt\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Formatting output:\n"
+#~ "  -T, --initial-tab       produce TAB instead of initial space\n"
+#~ "  -l, --paginate          paginate output through `pr'\n"
+#~ "  -S, --string[=STRING]   take note of another user STRING\n"
+#~ "  -V, --show-links        give file and line references in annotations\n"
+#~ "  -t, --expand-tabs       expand tabs to spaces in the output\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Formattering av utskrift:\n"
+#~ "  -T, --initial-tab       produser TAB isteden for startende mellomrom\n"
+#~ "  -l, --paginate          paginér utskrift gjennom «pr»\n"
+#~ "  -S, --string[=STRENG]   husk en annen bruker-STRENG\n"
+#~ "  -V, --show-links        vis fil- og linje-referanser i annoteringer\n"
+#~ "  -t, --expand-tabs       ekspander tabulatorer til mellomrom i utskrift\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Word mode options:\n"
+#~ "  -1, --no-deleted            inhibit output of deleted words\n"
+#~ "  -2, --no-inserted           inhibit output of inserted words\n"
+#~ "  -3, --no-common             inhibit output of common words\n"
+#~ "  -A, --auto-pager            automatically calls a pager\n"
+#~ "  -k, --less-mode             variation of printer mode for \"less\"\n"
+#~ "  -m, --avoid-wraps           do not extend fields through newlines\n"
+#~ "  -o, --printer               overstrike as for printers\n"
+#~ "  -z, --terminal              use termcap as for terminal displays\n"
+#~ "  -K, --no-init-term          like -z, but no termcap init/term strings\n"
+#~ "  -O, --item-regexp=REGEXP    compare items as defined by REGEXP\n"
+#~ "  -W, --word-mode             compare words instead of lines\n"
+#~ msgstr ""
+#~ "\n"
+#~ "  -1, --no-deleted           skriv ikke slettede ord\n"
+#~ "  -2, --no-inserted          skriv ikke innsatte ord\n"
+#~ "  -3, --no-common            skriv ikke felles ord\n"
+#~ "  -A, --auto-pager           kaller et sideleseprogram automatisk\n"
+#~ "  -k, --less-mode            variasjon av utskriftsmodus for «less»\n"
+#~ "  -m, --avoid-wraps          ikke utvid felt gjennom linjeskift\n"
+#~ "  -o, --printer              bruk overstrek som for skrivere\n"
+#~ "  -z, --terminal             bruk termcap som for vanlige terminaler\n"
+#~ "  -K, --no-init-term         som -z, men ingen termcap-init/-term-"
+#~ "strenger\n"
+#~ "  -O, --item-regexp=REGUTTR  sammenlikn elementer som definert av "
+#~ "REGUTTR\n"
+#~ "  -W, --word-mode            sammenlikn ord i steden for linjer\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Comparing files:\n"
+#~ "*  -H, --speed-large-files     go faster, for when numerous small "
+#~ "changes\n"
+#~ "*  -a, --text                  report line differences (text file "
+#~ "default)\n"
+#~ "*  -d, --minimal               try harder for a smaller set of changes\n"
+#~ "*  -q, --brief                 only says if files differ (binary "
+#~ "default)\n"
+#~ "*      --horizon-lines=LINES   keep LINES lines in common prefixes/"
+#~ "suffixes\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Sammenlikn filer:\n"
+#~ "*  -H, --speed-large-files     gå raskere, for mange små endringer\n"
+#~ "*  -a, --text                  rapporter linje-forskjeller (forvalgt for\n"
+#~ "                               tekstfiler)\n"
+#~ "*  -d, --minimal               prøv hardere, for et mindre sett med "
+#~ "endringer\n"
+#~ "*  -q, --brief                 bare si om filer er forskjellige (forvalgt "
+#~ "for\n"
+#~ "                               binære filer)\n"
+#~ "*      --horizon-lines=LINJER  behold LINJER linjer i vanlige prefiks/"
+#~ "suffiks\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Comparing directories:\n"
+#~ "*  -N, --new-file                  consider missing files to be empty\n"
+#~ "*  -P, --unidirectional-new-file   consider missing old files to be "
+#~ "empty\n"
+#~ "*  -S, --starting-file=FILE        resume directory comparison with FILE\n"
+#~ "*  -X, --exclude-from=FILE         ignore files matching patterns from "
+#~ "FILE\n"
+#~ "*  -r, --recursive                 recursively compare subdirectories\n"
+#~ "*  -s, --report-identical-files    report when two files are the same\n"
+#~ "*  -x, --exclude=PATTERN           ignore files (dirs) matching PATTERN\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Sammenlikning av kataloger:\n"
+#~ "*  -N, --new-file                  regn manglende filer som tomme\n"
+#~ "*  -P, --unidirectional-new-file   regn manglende gamle filer som tomme\n"
+#~ "*  -S, --starting-file=FIL         gjenoppta katalogsammenlikning med "
+#~ "FIL\n"
+#~ "*  -X, --exclude-from=FIL          ignorer filer som samsvarer med "
+#~ "mønster\n"
+#~ "                                   fra FIL\n"
+#~ "*  -r, --recursive                 sammenlikn kataloger rekursivt\n"
+#~ "*  -s, --report-identical-files    rapporter når to filer er like\n"
+#~ "*  -x, --exclude=MØNSTER           ignorer filer (kataloger) som "
+#~ "samsvarer\n"
+#~ "                                   med MØNSTER\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Ignoring text:\n"
+#~ "  -B, --ignore-blank-lines             ignore blank lines\n"
+#~ "*  -I, --ignore-matching-lines=REGEXP   ignore lines matching REGEXP\n"
+#~ "  -b, --ignore-space-change            ignore amount of white space\n"
+#~ "  -i, --ignore-case                    ignore case differences\n"
+#~ "  -w, --ignore-all-space               ignore white space\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ignorer tekst:\n"
+#~ "  -B, --ignore-blank-lines             ignorer blanke linjer\n"
+#~ "*  -I, --ignore-matching-lines=REGUTTR  ignorer linjer som samsvarer med "
+#~ "REGUTTR\n"
+#~ "  -b, --ignore-space-change            ignorer mengde mellomrom\n"
+#~ "  -i, --ignore-case                    ignorer forskjeller mellom små/"
+#~ "store \n"
+#~ "                                       bokstaver.\n"
+#~ "  -w, --ignore-all-space               ignorer tomrom\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Clustering:\n"
+#~ "  -G, --relist-files         list all input files with annotations\n"
+#~ "  -J, --minimum-size=ITEMS   ignore clusters not having that many ITEMS\n"
+#~ "  -j, --ignore-delimiters    do not count items having only delimiters\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Klynger:\n"
+#~ "  -G, --relist-files         list alle innfiler med annoteringer\n"
+#~ "  -J, --minimum-size=ELEM    ignorer klynger som ikke har så mange ELEM\n"
+#~ "  -j, --ignore-delimiters    ikke tell elementer som bare har skilletegn\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Detailed output formats:\n"
+#~ "*  -D, --ifdef=NAME                      output `#ifdef NAME' format\n"
+#~ "*      --changed-group-format=FORMAT     use FORMAT for changed lines\n"
+#~ "*      --new-group-format=FORMAT         use FORMAT for inserted lines\n"
+#~ "*      --new-line-format=FORMAT          use FORMAT for inserted line\n"
+#~ "*      --old-group-format=FORMAT         use FORMAT for deleted lines\n"
+#~ "*      --old-line-format=FORMAT          use FORMAT for deleted line\n"
+#~ "*      --unchanged-group-format=FORMAT   use FORMAT for unchanged lines\n"
+#~ "*      --unchanged-line-format=FORMAT    use FORMAT for unchanged line\n"
+#~ "*      --line-format=FORMAT              --{old,new,unchanged}-line-"
+#~ "format\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Detaljerte utskriftformater:\n"
+#~ "*  -D, --ifdef=NAVN                      skriv ut «#ifdef NAVN»-format\n"
+#~ "*      --changed-group-format=FORMAT     bruk FORMAT for endrede linjer\n"
+#~ "*      --new-group-format=FORMAT         bruk FORMAT for innskutte "
+#~ "linjer\n"
+#~ "*      --new-line-format=FORMAT          bruk FORMAT for innskutt linje\n"
+#~ "*      --old-group-format=FORMAT         bruk FORMAT for slettede linjer\n"
+#~ "*      --old-line-format=FORMAT          bruk FORMAT for slettet linje\n"
+#~ "*      --unchanged-group-format=FORMAT   bruk FORMAT for uendrede linjer\n"
+#~ "*      --unchanged-line-format=FORMAT    bruk FORMAT for uendrer linje\n"
+#~ "*      --line-format=FORMAT              --{old,new,unchanged}-line-"
+#~ "format\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Script-like formats:\n"
+#~ "  (none of -CDUcefnuy)   output normal diffs\n"
+#~ "*  -e, --ed               output a valid `ed' script\n"
+#~ "*  -f, --forward-ed       mix between -e and -n (not very useful)\n"
+#~ "*  -n, --rcs              output RCS format (internally used by RCS)\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Skript-liknenede formater:\n"
+#~ "  (ingen av -CDUcefnuy)  skriv ut vanlige differ\n"
+#~ "*  -e, --ed               skriv ut gyldige «ed»-skript\n"
+#~ "*  -f, --forward-ed       bland mellom -e og -n (ikke særlig nyttig)\n"
+#~ "*  -n, --rcs              skriv ut RCS-format (internt brukt av RCS)\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Context and unified formats:\n"
+#~ "*  -F, --show-function-line=REGEXP   show previous context matching "
+#~ "REGEXP\n"
+#~ "*  -p, --show-c-function             show which C function for each "
+#~ "change\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Kontekst og forente formater:\n"
+#~ "*  -F, --show-function-line=REGUTTR  vis forrige kontekst som samsvarer "
+#~ "med\n"
+#~ "                                     REGUTTR\n"
+#~ "*  -p, --show-c-function             vis hvilken C-funksjon for hver "
+#~ "endring\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "*  -C, --context=LINES         as -c, also select context size in lines\n"
+#~ "*  -L, --label=LABEL           use from/to LABEL instead of file name "
+#~ "(twice)\n"
+#~ "*  -U, --unified=LINES         as -u, also select context size in lines\n"
+#~ "*  -c, --context               output context diffs (default 3 context "
+#~ "lines)\n"
+#~ "*  -u, --unified               output unidiffs (default 3 context lines)\n"
+#~ "*  -LINES                      (obsolete: select context size in lines)\n"
+#~ msgstr ""
+#~ "\n"
+#~ "*  -C, --context=LINJER        som -c, men velg kontekst-størrelse i "
+#~ "linjer\n"
+#~ "*  -L, --label=TITTEL          bruk fra/til-TITTEL i steden for filnavn\n"
+#~ "                               (to ganger)\n"
+#~ "*  -U, --unified=LINJER        som -u, men velg kontekst-størrelse i "
+#~ "linjer\n"
+#~ "*  -c, --context               skriv ut kontekstdiffer \n"
+#~ "                               (forvalgt 3 kontekstlinjer)\n"
+#~ "*  -u, --unified               skriv ut unidiffer (forvalgt 3 "
+#~ "kontekstlinjer)\n"
+#~ "*  -LINJER                     (avleggs: vel kontekststørrelse i linjer)\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Side by side format:\n"
+#~ "*  -W, --width=COLUMNS           use width of COLUMNS\n"
+#~ "*  -y, --side-by-side            use side by side output format\n"
+#~ "*      --left-column             print only left column line when common\n"
+#~ "*      --sdiff-merge-assist      (internally used by `sdiff')\n"
+#~ "*      --suppress-common-lines   do not print common lines\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Side ved side-format:\n"
+#~ "*  -W, --width=KOLONNER          bruk bredde lik KOLONNER\n"
+#~ "*  -Y, --side-by-side            bruk side ved side-format\n"
+#~ "*      --left-column             skriv bare ut venstre kolonne når de er "
+#~ "felles\n"
+#~ "*      --sdiff-merge-assist      (internt brukt av «sdiff»)\n"
+#~ "*      --supress-common-lines    ikke skriv ut felles linjer\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "FORMAT is made up of characters standing for themselves, except:\n"
+#~ "  %%%%           a single %%\n"
+#~ "  %%c'C'        quoted character C\n"
+#~ "  %%c'\\O'       character having value O, from 1 to 3 octal digits\n"
+#~ "  %%(A=B?T:E)   if A is B then T else E; A B number or VARIABLE; T E "
+#~ "FORMAT\n"
+#~ "  %%FN          use SPECIF specification F to print VARIABLE value N\n"
+#~ "  %%<           [group] old, each line through --old-line-format\n"
+#~ "  %%>           [group] new, each line through --new-line-format\n"
+#~ "  %%=           [group] unchanged, each line through --unchanged-line-"
+#~ "format\n"
+#~ "  %%l           [line] without its possible trailing newline\n"
+#~ "  %%L           [line] with its possible trailing newline\n"
+#~ msgstr ""
+#~ "\n"
+#~ "FORMAT består av tegn som står for seg selv, unntatt:\n"
+#~ "  %%%%          et enkelt %%\n"
+#~ "  %%c'C'        beskyttet tegn C\n"
+#~ "  %%c'\\O'       tegn som har vardi O, fra 1 til 3 oktale siffer\n"
+#~ "  %%(A=B?T:E)   hvis A er B så T ellers E. A og B er tall eller "
+#~ "VARIABEL;\n"
+#~ "               T og E er formater\n"
+#~ "  %%FN          bruk SPECIF-spesifikasjon F for å skrive ut VARIABEL "
+#~ "verdi N\n"
+#~ "  %%<           [gruppe] gammel, hver linje via --old-line-format\n"
+#~ "  %%>           [gruppe] new, hver linje via --new-line-format\n"
+#~ "  %%=           [gruppe] uendret, hver linje via --unchange-line-format\n"
+#~ "  %%l           [linje] uten det eventuelle avsluttende linjeskift\n"
+#~ "  %%L           [linje] med det eventuelle avsluttende linjeskift\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "SPECIF is [-][W[.D]]{doxX} as in C printf\n"
+#~ msgstr ""
+#~ "\n"
+#~ "SPECIF er [-][W[.D]]{doxX} som i C printf\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "VARIABLE is {eflmn} for old group or {EFLMN} for new group\n"
+#~ "  {eE}   line number just before group\n"
+#~ "  {fF}   first line number of group\n"
+#~ "  {lL}   last line number of group\n"
+#~ "  {mM}   line number just after group\n"
+#~ "  {nN}   number of lines in the group\n"
+#~ msgstr ""
+#~ "\n"
+#~ "VARIABEL er {eflmn} for gammel gruppe eller {EFLMN} for ny gruppe\n"
+#~ "  {eE}   linjenummer rett før gruppe\n"
+#~ "  {fF}   første linjenummer til gruppa\n"
+#~ "  {lL}   siste linjenummer til gruppa\n"
+#~ "  {mM}   linjenummer rett etter gruppa\n"
+#~ "  {nN}   antall linjer i gruppa\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Standard diff options:\n"
+#~ "  -i, --ignore-case         consider upper- and lower-case to be the "
+#~ "same\n"
+#~ "  -w, --ignore-all-space    ignore all white space\n"
+#~ "  -b, --ignore-space-change ignore changes in the amount of white space\n"
+#~ "  -B, --ignore-blank-lines  ignore changes whose lines are all blank\n"
+#~ "  -I, --ignore-matching-lines=RE ignore changes whose lines all match RE\n"
+#~ "  -a, --text                treat all files as text\n"
+#~ "  -c, --context[=NUMBER]    output regular context diffs,\n"
+#~ "                            changing to NUMBER lines of context\n"
+#~ "  -u, --unified[=NUMBER]    output unified context diffs or unidiffs,\n"
+#~ "                            with NUMBER lines of context\n"
+#~ "  -C, --context=NUM         output NUM lines of copied context\n"
+#~ "  -U, --unified=NUM         output NUM lines of unified context\n"
+#~ "  -L, --label=LABEL         use LABEL instead of file name\n"
+#~ "  -p, --show-c-function     show which C function each change is in\n"
+#~ "  -F, --show-function-line=RE show the most recent line matching RE\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Standard diff-flagg:\n"
+#~ "  -i, --ignore-case         ikke skill mellom store og små bokstaver\n"
+#~ "  -w, --ignore-all-space    ignorer alle tomrom\n"
+#~ "  -b, --ignore-space-change ignorer endringer i mengde tomrom\n"
+#~ "  -B, --ignore-blank-lines  ignorer endringer hvis linjer er helt blanke\n"
+#~ "  -I, --ignore-matching-lines=RE ignorer endringer i linjer som "
+#~ "samsvarer\n"
+#~ "                            med RE\n"
+#~ "  -a, --text                håndter alle filer som tekstfiler\n"
+#~ "  -c, --context[=ANTALL]    skriv ut vanlige kontekstdiffer,\n"
+#~ "                            endre til ANTALL linjer kontekst\n"
+#~ "  -u, --unified[=ANTALL]    skriv ut forente kontekstdiffer eller "
+#~ "unidiffer\n"
+#~ "                            med ANTALL linjer kontekst\n"
+#~ "  -C, --context=ANT         skriv ANT linjer kopiert kontekst\n"
+#~ "  -U, --unified=ANT         skriv ANT linjer forent kontekst\n"
+#~ "  -L, --label=TITTEL        bruk TITTEL i steden for filnavn\n"
+#~ "  -p, --show-c-function     vis hvilken C-funksjon hver endring er i\n"
+#~ "  -F, --show-function-line=RE vis den nyeste linjen som samsvarer med RE\n"
+
+#~ msgid ""
+#~ "  -q, --brief               output only whether files differ\n"
+#~ "  -e, --ed                  output an ed script\n"
+#~ "  -n, --rcs                 output an RCS format diff\n"
+#~ "  -y, --side-by-side        output in two columns\n"
+#~ "  -w, --width=NUM           output at most NUM (default 130) characters "
+#~ "per line\n"
+#~ "      --left-column         output only the left column of common lines\n"
+#~ "      --suppress-common-lines do not output common lines\n"
+#~ "  -D, --ifdef=NAME          output merged file to show `#ifdef NAME' "
+#~ "diffs\n"
+#~ "      --GTYPE-group-format=GFMT GTYPE input groups with GFMT\n"
+#~ "      --line-format=LFMT    all input lines with LFMT\n"
+#~ "      --LTYPE-line-format=LFMT LTYPE input lines with LFMT\n"
+#~ "  -l, --paginate            pass the output through `pr' to paginate it\n"
+#~ "  -t, --expand-tabs         expand tabs to spaces in output\n"
+#~ msgstr ""
+#~ "  -q, --brief               skriv bare om filene er forskjellige\n"
+#~ "  -e, --ed                  skriv ut et ed-skript\n"
+#~ "  -n, --rcs                 skriv ut RCS-format-diff\n"
+#~ "  -y, --side-by-side        skriv ut i to kolonner\n"
+#~ "  -w, --width=ANT           skriv ut maks ANT (forvalgt 130) tegn per "
+#~ "linje\n"
+#~ "      --left-column         skriv bare venstre kolonne for like linjer\n"
+#~ "      --suppress-common-lines ikke skriv ut like linjer\n"
+#~ "  -D, --ifdef=NAVN          skriv ut flettet fil for å vise «#ifdef NAVN»-"
+#~ "differ\n"
+#~ "      --GTYPE-group-format=GFMT GTYPE inngrupper med GFMT\n"
+#~ "      --line-format=LFMT    alle innlinjer med LFMT\n"
+#~ "      --LTYPE-line-format=LFMT LTYPE innlinjer med LFMT\n"
+#~ "  -l, --paginate            send utskrift videre gjennom «pr» for "
+#~ "paginering\n"
+#~ "  -t, --expand-tabs         ekspander tabulatorer til mellomrom i "
+#~ "utskrift\n"
+
+#~ msgid ""
+#~ "  -T, --initial-tab         make tabs line up by prepending a tab\n"
+#~ "  -r, --recursive           recursively compare any subdirectories found\n"
+#~ "  -N, --new-file            treat absent files as empty\n"
+#~ "  -P, --unidirectional-new-file treat absent first files as empty\n"
+#~ "  -s, --report-identical-files report when two files are the same\n"
+#~ "  -x, --exclude=PAT         exclude files that match PAT\n"
+#~ "  -X, --exclude-from=FILE   exclude files that match any pattern in FILE\n"
+#~ "  -S, --starting-file=FILE  start with FILE when comparing directories\n"
+#~ "      --horizon-lines=NUM   keep NUM lines of the common prefix and "
+#~ "suffix\n"
+#~ "  -d, --minimal             try hard to find a smaller set of changes\n"
+#~ "  -H, --speed-large-files   assume large files and many scattered small "
+#~ "changes\n"
+#~ msgstr ""
+#~ "  -T, --initial-tab         få tabulatorer justert ved å sette inn en "
+#~ "tabulator\n"
+#~ "  -r, --recursive           sammenlikn kataloger rekursivt\n"
+#~ "  -N, --new-file            behandle manglende filer som tomme\n"
+#~ "  -P, --unidirectional-new-file behandle manglende første filer som "
+#~ "tomme\n"
+#~ "  -s, --report-identical-files rapporter når to filer er like\n"
+#~ "  -x, --exclude=MØN         ekskluder filer som samsvarer med MØN\n"
+#~ "  -X, --exclude-from=FIL    ekskluder filer som samsvarer med mønster i "
+#~ "FIL\n"
+#~ "  -S, --starting-file=FIL   start med FIL ved sammenlikning av kataloger\n"
+#~ "      --horizon-lines=ANT   behold ANT linjer av felles prefiks og "
+#~ "suffiks\n"
+#~ "  -d, --minimal             prøv hardt for å finne et mindre "
+#~ "endringssett\n"
+#~ "  -H, --speed-large-files   anta store filer og mange spredte små "
+#~ "endringer\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "By default, context diffs have an horizon of two lines.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Kontekstdiffer har forvalgt en horisont på to linjer.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "LTYPE is `old', `new', or `unchanged'.  GTYPE is LTYPE or `changed'.\n"
+#~ "GFMT may contain:\n"
+#~ "  %<  lines from FILE1\n"
+#~ "  %>  lines from FILE2\n"
+#~ "  %=  lines common to FILE1 and FILE2\n"
+#~ "  %[-][WIDTH][.[PREC]]{doxX}LETTER  printf-style spec for LETTER\n"
+#~ "    LETTERs are as follows for new group, lower case for old group:\n"
+#~ "      F  first line number\n"
+#~ "      L  last line number\n"
+#~ "      N  number of lines = L-F+1\n"
+#~ "      E  F-1\n"
+#~ "      M  L+1\n"
+#~ msgstr ""
+#~ "\n"
+#~ "LTYPE er «gammel», «new» eller «uendret».  GTYPE er LTYPE eller "
+#~ "«endret».\n"
+#~ "GFMT kan inneholde:\n"
+#~ "  %<  linjer fra FIL1\n"
+#~ "  %>  linjer fra FIL2\n"
+#~ "  %=  linjer felles for FIL1 og FIL2\n"
+#~ "  %[-][BREDDE][.[PRES]]{doxX}BOKSTAV printf-liknende spesifikasjon for "
+#~ "BOKSTAV\n"
+#~ "    BOKSTAVer er som følger for ny-grupper, små bokstaver for gammel-"
+#~ "gruppe:\n"
+#~ "      F  første linjenummer\n"
+#~ "      L  siste linjenummer\n"
+#~ "      N  antall linjer  = L-F+1\n"
+#~ "      E  F-1\n"
+#~ "      M  L+1\n"
+
+#~ msgid ""
+#~ "LFMT may contain:\n"
+#~ "  %L  contents of line\n"
+#~ "  %l  contents of line, excluding any trailing newline\n"
+#~ "  %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number\n"
+#~ "Either GFMT or LFMT may contain:\n"
+#~ "  %%  %\n"
+#~ "  %c'C'  the single character C\n"
+#~ "  %c'\\OOO'  the character with octal code OOO\n"
+#~ msgstr ""
+#~ "LFMT kan inneholde:\n"
+#~ "  %L  innholdet av linje  %l  innholdet av linje, unntatt evt. "
+#~ "avsluttende linjeskift\n"
+#~ "  %[-][BREDDE][.[PRES]]{doxX}n printf-liknende spesifikasjon for "
+#~ "innlinjenummer\n"
+#~ "Enten GFMT eller LFMT kan inneholde:\n"
+#~ "  %%  %\n"
+#~ "  %c'C'  tegnet C\n"
+#~ "  %c'\\OOO'  tegnet med den oktale verdien OOO\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Old mdiff options:\n"
+#~ "*  -f, --fuzz-items=ITEMS     no more than ITEMS non matching in a "
+#~ "cluster\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Gamle mdiff-flagg:\n"
+#~ "*  -f, --fuzz-items=ELEM      ikke flere enn ELEM ikke-samsvarende i en "
+#~ "klynge\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "  -c, --context-diffs    force output to context diffs\n"
+#~ "  -e, --echo-comments    echo comments to standard error\n"
+#~ "  -o, --old-diffs        output old-style diffs, no matter what\n"
+#~ "  -p, --patch-format     generate patch format\n"
+#~ "  -P                     same as -p\n"
+#~ "  -s, --strip-comments   strip comment lines\n"
+#~ "  -u, --unidiffs         force output to unidiffs\n"
+#~ "  -U                     same as -p and -u\n"
+#~ "  -=, --use-equals       replace spaces by equal signs in unidiffs\n"
+#~ "      --help             display this help and exit\n"
+#~ "      --version          output version information and exit\n"
+#~ "\n"
+#~ "If FILE is not specified, read standard input.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "  -c, --context-diffs    tving utskrift til kontekstdiffer\n"
+#~ "  -e, --echo-comments    skriv kommentarer til standard feilkanal\n"
+#~ "  -o, --old-diffs        skriv ut gammeldagse differs, uansett\n"
+#~ "  -p, --patch-format     lag patch-format\n"
+#~ "  -P                     samme som -p\n"
+#~ "  -s, --strip-comments   stripp vekk kommentarlinjer\n"
+#~ "  -u, --unidiffs         tving utskrift til unidiffer\n"
+#~ "  -U                     samme som -p og -u\n"
+#~ "  -=, --use-equals       erstatt mellomrom med likhetstegn i unidiffer\n"
+#~ "      --help             vis denne hjelpteksten og avslutt\n"
+#~ "      --version          vis versjonsinformasjon og avslutt\n"
+#~ "\n"
+#~ "Hvis FIL ikke er oppgitt, leses fra standard innkanal.\n"
+
+#~ msgid ""
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "\n"
+#~ "  -C, --copyright            print copyright then exit\n"
+#~ "  -K, --no-init-term         like -t, but no termcap init/term strings\n"
+#~ "  -V, --version              print program version then exit\n"
+#~ "  -1, --no-deleted           inhibit output of deleted words\n"
+#~ "  -2, --no-inserted          inhibit output of inserted words\n"
+#~ "  -3, --no-common            inhibit output of common words\n"
+#~ "  -a, --auto-pager           automatically calls a pager\n"
+#~ "  -h, --help                 print this help\n"
+#~ "  -i, --ignore-case          fold character case while comparing\n"
+#~ "  -l, --less-mode            variation of printer mode for \"less\"\n"
+#~ "  -n, --avoid-wraps          do not extend fields through newlines\n"
+#~ "  -p, --printer              overstrike as for printers\n"
+#~ "  -s, --statistics           say how many words deleted, inserted etc.\n"
+#~ "  -t, --terminal             use termcap as for terminal displays\n"
+#~ "  -w, --start-delete=STRING  string to mark beginning of delete region\n"
+#~ "  -x, --end-delete=STRING    string to mark end of delete region\n"
+#~ "  -y, --start-insert=STRING  string to mark beginning of insert region\n"
+#~ "  -z, --end-insert=STRING    string to mark end of insert region\n"
+#~ msgstr ""
+#~ "Obligatoriske argumenter for lange flagg er obligatoriske også for korte\n"
+#~ "flagg.\n"
+#~ "\n"
+#~ "  -C, --copyright            vis copyright og avslutt\n"
+#~ "  -K, --no-init-term         som -t, men ingen termcap init-/term-"
+#~ "strenger\n"
+#~ "  -V, --version              vis programversion og avslutt\n"
+#~ "  -1, --no-deleted           skriv ikke slettede ord\n"
+#~ "  -2, --no-inserted          skriv ikke innsatte ord\n"
+#~ "  -3, --no-common            skriv ikke felles ord\n"
+#~ "  -a, --auto-pager           kaller en «pager» automatisk\n"
+#~ "  -h, --help                 vis denne hjelpeteksten\n"
+#~ "  -i, --ignore-case          skill ikke mellom store og små bokstaver\n"
+#~ "  -l, --less-mode            variant av printer-modus for \"less\"\n"
+#~ "  -n, --avoid-wraps          ikke utvid felter gjennom newlines\n"
+#~ "  -p, --printer              bruk overstrike som for printere\n"
+#~ "  -s, --statistics           skriv antall ord som ble slettet, satt inn, "
+#~ "osv.\n"
+#~ "  -t, --terminal             bruk termcap som for vanlige terminaler\n"
+#~ "  -w, --start-delete=STRENG  streng som markerer start på sletting\n"
+#~ "  -x, --end-delete=STRENG    streng som markerer slutt på sletting\n"
+#~ "  -y, --start-insert=STRENG  streng som markerer start på innsetting\n"
+#~ "  -z, --end-insert=STRENG    streng som markerer slutt på innsetting\n"

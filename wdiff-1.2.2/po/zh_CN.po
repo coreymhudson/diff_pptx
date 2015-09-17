@@ -1,0 +1,862 @@
+# Simplified Chinese translation for wdiff.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Meng Jie <zuxyhere@eastday.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wdiff 0.5g\n"
+"Report-Msgid-Bugs-To: wdiff-bugs@gnu.org\n"
+"POT-Creation-Date: 2014-04-14 22:15+0200\n"
+"PO-Revision-Date: 2010-02-01 21:08+0100\n"
+"Last-Translator: Meng Jie <zuxyhere@eastday.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/mdiff.c:376
+#, c-format
+msgid "%s (for regexp `%s')"
+msgstr "%s (对于正规表示式 “%s”)"
+
+#: src/mdiff.c:891 src/wdiff.c:1473
+#, fuzzy, c-format
+msgid "only one file may be standard input"
+msgstr "只有一个文件可以是标准输入。"
+
+#: src/mdiff.c:906 src/wdiff.c:678
+#, fuzzy, c-format
+msgid "directories not supported"
+msgstr "不支持目录操作"
+
+#: src/mdiff.c:1049
+#, c-format
+msgid "Reading %s"
+msgstr "读取 %s"
+
+#: src/mdiff.c:1173
+#, fuzzy, c-format
+msgid ", %d item\n"
+msgid_plural ", %d items\n"
+msgstr[0] "，%d 个条目\n"
+msgstr[1] "，%d 个条目\n"
+
+#: src/mdiff.c:1253
+#, c-format
+msgid "Read summary:"
+msgstr ""
+
+#: src/mdiff.c:1254
+#, fuzzy, c-format
+msgid " %d file,"
+msgid_plural " %d files,"
+msgstr[0] "，%d 个条目\n"
+msgstr[1] "，%d 个条目\n"
+
+#: src/mdiff.c:1255
+#, fuzzy, c-format
+msgid " %d item\n"
+msgid_plural " %d items\n"
+msgstr[0] "，%d 个条目\n"
+msgstr[1] "，%d 个条目\n"
+
+#: src/mdiff.c:1648
+#, c-format
+msgid "Sorting"
+msgstr "排序"
+
+#: src/mdiff.c:1665
+#, c-format
+msgid ", clustering"
+msgstr ""
+
+#: src/mdiff.c:1834 src/mdiff.c:1896
+#, c-format
+msgid ", done\n"
+msgstr "，完成\n"
+
+#: src/mdiff.c:1883
+#, c-format
+msgid "Sorting members"
+msgstr "排序成员"
+
+#: src/mdiff.c:1916 src/mdiff.c:2299
+#, c-format
+msgid "Work summary:"
+msgstr ""
+
+#: src/mdiff.c:1917 src/mdiff.c:2300
+#, c-format
+msgid " %d cluster,"
+msgid_plural " %d clusters,"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/mdiff.c:1919
+#, fuzzy, c-format
+msgid " %d member\n"
+msgid_plural " %d members\n"
+msgstr[0] "，%d 个条目\n"
+msgstr[1] "，%d 个条目\n"
+
+#: src/mdiff.c:2302
+#, c-format
+msgid " %d member,"
+msgid_plural " %d members,"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/mdiff.c:2304
+#, c-format
+msgid " %d overlap\n"
+msgid_plural " %d overlaps\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/mdiff.c:2354 src/wdiff.c:228
+#, fuzzy, c-format
+msgid "select a terminal through the TERM environment variable"
+msgstr "从 TERM 环境变量中选择一个终端类型。"
+
+#: src/mdiff.c:2357 src/wdiff.c:231
+#, fuzzy, c-format
+msgid "could not access the termcap data base"
+msgstr "无法访问 termcap 数据库。"
+
+#: src/mdiff.c:2359 src/wdiff.c:233
+#, fuzzy, c-format
+msgid "terminal type `%s' is not defined"
+msgstr "终端类型‘%s’未定义。"
+
+#: src/mdiff.c:3710 src/mdiff.c:3726 src/wdiff.c:1167 src/wdiff.c:1183
+#, fuzzy, c-format
+msgid "%s: %d word"
+msgid_plural "%s: %d words"
+msgstr[0] "%s: %d 个词"
+msgstr[1] "%s: %d 个词"
+
+#: src/mdiff.c:3714 src/mdiff.c:3730 src/wdiff.c:1171 src/wdiff.c:1187
+#, fuzzy, c-format
+msgid "  %d %.0f%% common"
+msgid_plural "  %d %.0f%% common"
+msgstr[0] "  %d %d%% 共同"
+msgstr[1] "  %d %d%% 共同"
+
+#: src/mdiff.c:3717 src/wdiff.c:1174
+#, fuzzy, c-format
+msgid "  %d %.0f%% deleted"
+msgid_plural "  %d %.0f%% deleted"
+msgstr[0] "  %d %d%% 删除"
+msgstr[1] "  %d %d%% 删除"
+
+#: src/mdiff.c:3720 src/mdiff.c:3736 src/wdiff.c:1177 src/wdiff.c:1193
+#, fuzzy, c-format
+msgid "  %d %.0f%% changed"
+msgid_plural "  %d %.0f%% changed"
+msgstr[0] "  %d %d%% 更改"
+msgstr[1] "  %d %d%% 更改"
+
+#: src/mdiff.c:3733 src/wdiff.c:1190
+#, fuzzy, c-format
+msgid "  %d %.0f%% inserted"
+msgid_plural "  %d %.0f%% inserted"
+msgstr[0] "  %d %d%% 插入"
+msgstr[1] "  %d %d%% 插入"
+
+#: src/mdiff.c:3764 src/wdiff.c:1233 src/wdiff2.c:172
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "请尝试执行‘%s --help’以得到更多信息。\n"
+
+#: src/mdiff.c:3769
+msgid ""
+"mdiff - Studies multiple files and searches for similar sequences, it then\n"
+"produces possibly detailed lists of differences and similarities.\n"
+msgstr ""
+
+#: src/mdiff.c:3774
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "用法：%s [选项]... [文件]...\n"
+
+#: src/mdiff.c:3778
+msgid ""
+"\n"
+"Operation modes:\n"
+msgstr ""
+
+#: src/mdiff.c:3779
+#, fuzzy
+msgid "  -h                     (ignored)\n"
+msgstr "  -h                     (忽略)\n"
+
+#: src/mdiff.c:3780
+msgid "  -v, --verbose          report a few statistics on stderr\n"
+msgstr ""
+
+# ? "      --help             display this help and exit"
+# ? "      --help             显示本帮助信息并退出"
+#: src/mdiff.c:3781 src/unify.c:295
+msgid "      --help             display this help then exit\n"
+msgstr ""
+
+# ? "      --version          output version information and exit"
+# ? "      --version          显示版本信息并退出"
+#: src/mdiff.c:3782 src/unify.c:296
+msgid "      --version          display program version then exit\n"
+msgstr ""
+
+#: src/mdiff.c:3784
+msgid ""
+"\n"
+"Formatting output:\n"
+msgstr ""
+
+#: src/mdiff.c:3785
+msgid "  -T, --initial-tab       produce TAB instead of initial space\n"
+msgstr ""
+
+#: src/mdiff.c:3786
+msgid "  -l, --paginate          paginate output through `pr'\n"
+msgstr ""
+
+#: src/mdiff.c:3787
+msgid "  -S, --string[=STRING]   take note of another user STRING\n"
+msgstr ""
+
+#: src/mdiff.c:3788
+msgid ""
+"  -V, --show-links        give file and line references in annotations\n"
+msgstr ""
+
+#: src/mdiff.c:3789
+#, fuzzy
+msgid "  -t, --expand-tabs       expand tabs to spaces in the output\n"
+msgstr "  -t, --expand-tabs         输出中将制表符扩展为空格\n"
+
+#: src/mdiff.c:3792
+msgid ""
+"\n"
+"Debugging:\n"
+msgstr ""
+
+#: src/mdiff.c:3793
+msgid "  -0, --debugging   output many details about what is going on\n"
+msgstr ""
+
+#: src/mdiff.c:3796
+msgid ""
+"\n"
+"Word mode options:\n"
+msgstr ""
+
+#: src/mdiff.c:3797 src/wdiff.c:1251 src/wdiff2.c:190
+#, fuzzy
+msgid "  -1, --no-deleted           inhibit output of deleted words\n"
+msgstr "  -1, --no-deleted           不输出被删除的词\n"
+
+#: src/mdiff.c:3798 src/wdiff.c:1252 src/wdiff2.c:191
+#, fuzzy
+msgid "  -2, --no-inserted          inhibit output of inserted words\n"
+msgstr "  -2, --no-inserted          不输出插入的词\n"
+
+#: src/mdiff.c:3799 src/wdiff.c:1253 src/wdiff2.c:192
+#, fuzzy
+msgid "  -3, --no-common            inhibit output of common words\n"
+msgstr "  -3, --no-common            不输出相同的词\n"
+
+#: src/mdiff.c:3800
+#, fuzzy
+msgid "  -A, --auto-pager           automatically calls a pager\n"
+msgstr "  -A, --auto-pager           自动调用分页程序\n"
+
+#: src/mdiff.c:3801
+#, fuzzy
+msgid "  -k, --less-mode            variation of printer mode for \"less\"\n"
+msgstr "  -l, --less-mode            variation of printer mode for \"less\"\n"
+
+#: src/mdiff.c:3802
+#, fuzzy
+msgid "  -m, --avoid-wraps          do not extend fields through newlines\n"
+msgstr "  -n, --avoid-wraps          字段不跨行\n"
+
+#: src/mdiff.c:3803
+#, fuzzy
+msgid "  -o, --printer              overstrike as for printers\n"
+msgstr "  -p, --printer              overstrike as for printers\n"
+
+#: src/mdiff.c:3804
+#, fuzzy
+msgid "  -z, --terminal             use termcap as for terminal displays\n"
+msgstr "  -t, --terminal             use termcap as for terminal displays\n"
+
+#: src/mdiff.c:3805
+msgid "  -O, --item-regexp=REGEXP   compare items as defined by REGEXP\n"
+msgstr ""
+
+#: src/mdiff.c:3806
+msgid "  -W, --word-mode            compare words instead of lines\n"
+msgstr ""
+
+#: src/mdiff.c:3991
+#, fuzzy
+msgid "With no FILE, or when FILE is -, read standard input.\n"
+msgstr "如果没有指定<文件>或<文件>是 -，则从标准输入读取资料。\n"
+
+#: src/mdiff.c:3993 src/unify.c:300 src/wdiff.c:1269 src/wdiff2.c:210
+#, fuzzy
+msgid "Report bugs to <wdiff-bugs@gnu.org>.\n"
+msgstr "请向 <wdiff-bugs@gnu.org> 报告程序缺陷。\n"
+
+#: src/mdiff.c:4005
+#, c-format
+msgid "ignoring option %s (not implemented)"
+msgstr ""
+
+#: src/mdiff.c:4299
+#, fuzzy, c-format
+msgid "cannot use -z, termcap not available"
+msgstr "无法使用 -z，termcap 不可用。"
+
+#: src/mdiff.c:4338
+#, fuzzy, c-format
+msgid "word merging for two files only (so far)"
+msgstr "单词合并目前只能用于两个文件"
+
+#: src/mdiff.c:4354
+#, fuzzy
+msgid ""
+"\n"
+"Copyright (C) 1992, 1997, 1998, 1999, 2010 Free Software Foundation, Inc.\n"
+msgstr ""
+"\n"
+"版权所有 (C) 1992，1997 自由软件基金会\n"
+
+#: src/mdiff.c:4357 src/unify.c:407 src/wdiff.c:1395 src/wdiff2.c:131
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"本程序是自由软件；请参看源代码的版权声明。本软件不提供任何担保；包括没有适销"
+"性和\n"
+"某一专用目的下的适用性担保。\n"
+
+#: src/mdiff.c:4360 src/wdiff.c:1398 src/wdiff2.c:134
+msgid ""
+"\n"
+"Written by Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr ""
+"\n"
+"由 Franc,ois Pinard <pinard@iro.umontreal.ca> 编写。\n"
+
+#: src/mdiff.c:4395
+#, c-format
+msgid "options -123RSYZ meaningful only when two inputs"
+msgstr ""
+
+#: src/pipes.c:47
+#, c-format
+msgid "error redirecting stream"
+msgstr ""
+
+#: src/pipes.c:51
+#, c-format
+msgid "failed to execute %s"
+msgstr ""
+
+#: src/unify.c:145
+#, fuzzy, c-format
+msgid "could not find a name for the diff at line %ld"
+msgstr "第 %ld 行上下文 diff 格式不对"
+
+#: src/unify.c:274
+#, fuzzy, c-format
+msgid "try `%s --help' for more information\n"
+msgstr "请尝试执行‘%s --help’以得到更多信息。\n"
+
+#: src/unify.c:279
+msgid "unify - Transforms context diffs into unidiffs, or vice-versa.\n"
+msgstr ""
+
+#: src/unify.c:283
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]... [FILE]\n"
+msgstr "用法：%s [选项] [文件]\n"
+
+#: src/unify.c:286
+msgid "  -c, --context-diffs    force output to context diffs\n"
+msgstr ""
+
+#: src/unify.c:287
+msgid "  -e, --echo-comments    echo comments to standard error\n"
+msgstr ""
+
+#: src/unify.c:288
+msgid "  -o, --old-diffs        output old-style diffs, no matter what\n"
+msgstr ""
+
+#: src/unify.c:289
+msgid "  -p, --patch-format     generate patch format\n"
+msgstr ""
+
+#: src/unify.c:290
+#, fuzzy
+msgid "  -P                     same as -p\n"
+msgstr "  -P                     与 -p 相同\n"
+
+#: src/unify.c:291
+msgid "  -s, --strip-comments   strip comment lines\n"
+msgstr ""
+
+#: src/unify.c:292
+msgid "  -u, --unidiffs         force output to unidiffs\n"
+msgstr ""
+
+#: src/unify.c:293
+#, fuzzy
+msgid "  -U                     same as -p and -u\n"
+msgstr "  -U                     same as -p and -u\n"
+
+#: src/unify.c:294
+#, fuzzy
+msgid "  -=, --use-equals       replace spaces by equal signs in unidiffs\n"
+msgstr "  -=, --use-equals       replace spaces by equal signs in unidiffs\n"
+
+#: src/unify.c:298
+#, fuzzy
+msgid "If FILE is not specified, read standard input.\n"
+msgstr "如果没有指定<文件>或<文件>是 -，则从标准输入读取资料。\n"
+
+#: src/unify.c:389
+#, fuzzy, c-format
+msgid "unable to open `%s'"
+msgstr "无法打开‘%s’"
+
+#: src/unify.c:395
+#, fuzzy, c-format
+msgid "only one filename allowed"
+msgstr "只接受一个文件名"
+
+#: src/unify.c:404
+msgid ""
+"\n"
+"Copyright (C) 1994, 1997 Free Software Foundation, Inc.\n"
+msgstr ""
+"\n"
+"版权所有 (C) 1994，1997 自由软件基金会\n"
+
+#: src/unify.c:410
+msgid ""
+"\n"
+"Written by Wayne Davison <davison@borland.com>.\n"
+msgstr ""
+"\n"
+"由 Wayne Davison <davison@borland.com> 编写。\n"
+
+#: src/unify.c:548
+#, fuzzy, c-format
+msgid "invalid unified diff header at line %ld"
+msgstr "第 %ld 行的 unidiff 头无效"
+
+#: src/unify.c:590
+#, fuzzy, c-format
+msgid "malformed unified diff at line %ld"
+msgstr "第 %ld 行 unidiff 格式不对"
+
+#: src/unify.c:620
+#, fuzzy, c-format
+msgid "context diff missing `old' header at line %ld"
+msgstr "第 %ld 行的上下文 diff 缺少‘old’头"
+
+#: src/unify.c:664 src/unify.c:683 src/unify.c:753 src/unify.c:771
+#, fuzzy, c-format
+msgid "malformed context diff at line %ld"
+msgstr "第 %ld 行上下文 diff 格式不对"
+
+#: src/unify.c:718
+#, fuzzy, c-format
+msgid "context diff missing `new' header at line %ld"
+msgstr "第 %ld 行的上下文 diff 缺少‘new’头"
+
+#: src/wdiff.c:582 src/wdiff.c:701
+#, c-format
+msgid "no suitable temporary directory exists"
+msgstr ""
+
+#: src/wdiff.c:1040
+#, c-format
+msgid "%s: input program killed by signal %d\n"
+msgstr ""
+
+#: src/wdiff.c:1145
+#, c-format
+msgid "%s: output program killed by signal %d\n"
+msgstr ""
+
+#: src/wdiff.c:1210 src/wdiff2.c:109
+#, fuzzy
+msgid ""
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+"此程序是自由软件；您可以在自由软件基金会发布的 GNU 通用公共许可证的条款下\n"
+"重新分发和(或)修改它；您可以选择使用 GPL 第二版，或(按照您的意愿)任何更新\n"
+"的版本。\n"
+"\n"
+"该程序分发的目的是为了其他人可以使用它，但是没有任何担保；也没有对其适销性\n"
+"和某一特定目的下的适用性的担保。请查阅 GNU 通用公共许可证来获得更多的信息。\n"
+"\n"
+"你应该已经跟本程序一起收到一份 GNU 通用公共许可证；如果没有，请写信至：\n"
+"Free Software Foundation, Inc., \n"
+"59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+
+#: src/wdiff.c:1238
+msgid "wdiff - Compares words in two files and report differences.\n"
+msgstr "wdiff - 比较两个文件中的词汇并报告区别。\n"
+
+#: src/wdiff.c:1242
+#, fuzzy, c-format
+msgid ""
+"Usage: %s [OPTION]... FILE1 FILE2\n"
+"   or: %s -d [OPTION]... [FILE]\n"
+msgstr ""
+"用法：%s [选项]... 文件1 文件2\n"
+"      %s [选项]... [文件]\n"
+
+#: src/wdiff.c:1247 src/wdiff2.c:186
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr ""
+
+#: src/wdiff.c:1250 src/wdiff2.c:189
+#, fuzzy
+msgid "  -C, --copyright            display copyright then exit\n"
+msgstr "  -C, --copyright            打印版权信息并退出\n"
+
+#: src/wdiff.c:1254 src/wdiff2.c:193
+#, fuzzy
+msgid "  -a, --auto-pager           automatically calls a pager\n"
+msgstr "  -a, --auto-pager           自动调用分页程序\n"
+
+#: src/wdiff.c:1255
+msgid "  -d, --diff-input           use single unified diff as input\n"
+msgstr ""
+
+#: src/wdiff.c:1256 src/wdiff2.c:194
+#, fuzzy
+msgid "  -h, --help                 display this help then exit\n"
+msgstr "  -h, --help                 打印此帮助\n"
+
+# ? "  -i, --ignore-case          比较时忽略字符大小写"
+# ? "  -i, --ignore-case         忽略大小写"
+#: src/wdiff.c:1257 src/wdiff2.c:195
+msgid "  -i, --ignore-case          fold character case while comparing\n"
+msgstr ""
+
+#: src/wdiff.c:1258 src/wdiff2.c:196
+#, fuzzy
+msgid "  -l, --less-mode            variation of printer mode for \"less\"\n"
+msgstr "  -l, --less-mode            variation of printer mode for \"less\"\n"
+
+#: src/wdiff.c:1259 src/wdiff2.c:197
+#, fuzzy
+msgid "  -n, --avoid-wraps          do not extend fields through newlines\n"
+msgstr "  -n, --avoid-wraps          字段不跨行\n"
+
+#: src/wdiff.c:1260 src/wdiff2.c:198
+#, fuzzy
+msgid "  -p, --printer              overstrike as for printers\n"
+msgstr "  -p, --printer              overstrike as for printers\n"
+
+#: src/wdiff.c:1261 src/wdiff2.c:200
+#, fuzzy
+msgid ""
+"  -s, --statistics           say how many words deleted, inserted etc.\n"
+msgstr ""
+"  -s, --statistics           say how many words deleted, inserted etc.\n"
+
+#: src/wdiff.c:1262 src/wdiff2.c:201
+#, fuzzy
+msgid "  -t, --terminal             use termcap as for terminal displays\n"
+msgstr "  -t, --terminal             use termcap as for terminal displays\n"
+
+#: src/wdiff.c:1263 src/wdiff2.c:202
+#, fuzzy
+msgid "  -v, --version              display program version then exit\n"
+msgstr "  -V, --version              打印程序版本并退出\n"
+
+#: src/wdiff.c:1264 src/wdiff2.c:203
+#, fuzzy
+msgid ""
+"  -w, --start-delete=STRING  string to mark beginning of delete region\n"
+msgstr "  -w, --start-delete=字符串  标记删除区域起始的字符串\n"
+
+#: src/wdiff.c:1265 src/wdiff2.c:204
+#, fuzzy
+msgid "  -x, --end-delete=STRING    string to mark end of delete region\n"
+msgstr "  -x, --end-delete=字符串    标记删除区域结束的字符串\n"
+
+#: src/wdiff.c:1266 src/wdiff2.c:205
+#, fuzzy
+msgid ""
+"  -y, --start-insert=STRING  string to mark beginning of insert region\n"
+msgstr "  -y, --start-insert=字符串  标记插入区域起始的字符串\n"
+
+#: src/wdiff.c:1267 src/wdiff2.c:206
+#, fuzzy
+msgid "  -z, --end-insert=STRING    string to mark end of insert region\n"
+msgstr "  -z, --end-insert=字符串    标记插入区域结束的字符串\n"
+
+#: src/wdiff.c:1386
+#, fuzzy, c-format
+msgid "cannot use -t, termcap not available"
+msgstr "无法使用 -t，termcap 不可用。"
+
+#: src/wdiff.c:1391
+#, fuzzy
+msgid ""
+"\n"
+"Copyright (C) 1992, 1997, 1998, 1999, 2009, 2010, 2011, 2012 Free Software\n"
+"Foundation, Inc.\n"
+msgstr ""
+"\n"
+"版权所有 (C) 1992，1997 自由软件基金会\n"
+
+#: src/wdiff.c:1436 src/wdiff.c:1454
+#, fuzzy, c-format
+msgid "too many file arguments"
+msgstr "缺少文件参数"
+
+#: src/wdiff.c:1449 src/wdiff2.c:320
+#, fuzzy, c-format
+msgid "missing file arguments"
+msgstr "缺少文件参数"
+
+#: src/wdiff2.c:128
+#, fuzzy
+msgid ""
+"\n"
+"Copyright (C) 1997, 1998, 1999 Free Software Foundation, Inc.\n"
+msgstr ""
+"\n"
+"版权所有 (C) 1994，1997 自由软件基金会\n"
+
+#: src/wdiff2.c:177
+msgid ""
+"wdiff - Compute word differences by internally launching `mdiff -W'.\n"
+"This program exists mainly to support the now oldish `wdiff' syntax.\n"
+msgstr ""
+
+#: src/wdiff2.c:182
+#, fuzzy, c-format
+msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
+msgstr "用法：%s [选项]... 文件1 文件2\n"
+
+#: src/wdiff2.c:199
+msgid "  -q, --quiet                inhibit the `mdiff' call message\n"
+msgstr ""
+
+#: src/wdiff2.c:208
+msgid "This program also tells how `mdiff' could have been called directly.\n"
+msgstr ""
+
+#. TRANSLATORS: This and the next string are one message.
+#: src/wdiff2.c:332
+#, fuzzy, c-format
+msgid "Launching `%s"
+msgstr "读取 %s"
+
+#: src/wdiff2.c:335
+#, c-format
+msgid "'\n"
+msgstr ""
+
+#~ msgid "Read summary: %d files, %d items\n"
+#~ msgstr "读取小结：%d 个文件，%d 条目\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "  -K, --no-init-term         like -z, but no termcap init/term strings\n"
+#~ msgstr ""
+#~ "  -K, --no-init-term         like -t, but no termcap init/term strings\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "  -K, --no-init-term         like -t, but no termcap init/term strings\n"
+#~ msgstr ""
+#~ "  -K, --no-init-term         like -t, but no termcap init/term strings\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Operation modes:\n"
+#~ "  -h                     (ignored)\n"
+#~ "  -v, --verbose          report a few statistics on stderr\n"
+#~ "      --help             display this help and exit\n"
+#~ "      --version          output version information and exit\n"
+#~ msgstr ""
+#~ "\n"
+#~ "操作模式:\n"
+#~ "  -h                     (忽略)\n"
+#~ "  -v，--verbose          在标准错误上报告一些统计信息\n"
+#~ "      --help             显示本帮助信息并退出\n"
+#~ "      --version          显示版本信息并退出\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Standard diff options:\n"
+#~ "  -i, --ignore-case         consider upper- and lower-case to be the "
+#~ "same\n"
+#~ "  -w, --ignore-all-space    ignore all white space\n"
+#~ "  -b, --ignore-space-change ignore changes in the amount of white space\n"
+#~ "  -B, --ignore-blank-lines  ignore changes whose lines are all blank\n"
+#~ "  -I, --ignore-matching-lines=RE ignore changes whose lines all match RE\n"
+#~ "  -a, --text                treat all files as text\n"
+#~ "  -c, --context[=NUMBER]    output regular context diffs,\n"
+#~ "                            changing to NUMBER lines of context\n"
+#~ "  -u, --unified[=NUMBER]    output unified context diffs or unidiffs,\n"
+#~ "                            with NUMBER lines of context\n"
+#~ "  -C, --context=NUM         output NUM lines of copied context\n"
+#~ "  -U, --unified=NUM         output NUM lines of unified context\n"
+#~ "  -L, --label=LABEL         use LABEL instead of file name\n"
+#~ "  -p, --show-c-function     show which C function each change is in\n"
+#~ "  -F, --show-function-line=RE show the most recent line matching RE\n"
+#~ msgstr ""
+#~ "\n"
+#~ "标准的 diff 选项：\n"
+#~ "  -i, --ignore-case         忽略大小写\n"
+#~ "  -w, --ignore-all-space    忽略所有空白符\n"
+#~ "  -b, --ignore-space-change 忽略空白符的多少\n"
+#~ "  -B, --ignore-blank-lines  忽略空白行\n"
+#~ "  -I, --ignore-matching-lines=RE ignore changes whose lines all match RE\n"
+#~ "  -a, --text                将所有文件视作文本\n"
+#~ "  -c, --context[=N]         输出正规上下文 diff，带 N 行上下文\n"
+#~ "  -u, --unified[=N]         输入统一上下文 diff，带 N 行上下文\n"
+#~ "  -C, --context=N           输入 N 行复制上下文\n"
+#~ "  -U, --unified=N           输出 N 行统一上下文\n"
+#~ "  -L, --label=标号          使用“标号”而不是文件名\n"
+#~ "  -p, --show-c-function     显示有改变的 C 函数\n"
+#~ "  -F, --show-function-line=RE show the most recent line matching RE\n"
+
+#~ msgid ""
+#~ "  -q, --brief               output only whether files differ\n"
+#~ "  -e, --ed                  output an ed script\n"
+#~ "  -n, --rcs                 output an RCS format diff\n"
+#~ "  -y, --side-by-side        output in two columns\n"
+#~ "  -w, --width=NUM           output at most NUM (default 130) characters "
+#~ "per line\n"
+#~ "      --left-column         output only the left column of common lines\n"
+#~ "      --suppress-common-lines do not output common lines\n"
+#~ "  -D, --ifdef=NAME          output merged file to show `#ifdef NAME' "
+#~ "diffs\n"
+#~ "      --GTYPE-group-format=GFMT GTYPE input groups with GFMT\n"
+#~ "      --line-format=LFMT    all input lines with LFMT\n"
+#~ "      --LTYPE-line-format=LFMT LTYPE input lines with LFMT\n"
+#~ "  -l, --paginate            pass the output through `pr' to paginate it\n"
+#~ "  -t, --expand-tabs         expand tabs to spaces in output\n"
+#~ msgstr ""
+#~ "  -q, --brief               只输出文件是否不同\n"
+#~ "  -e, --ed                  输出一个 ed 脚本\n"
+#~ "  -n, --rcs                 输出为 RCS 格式\n"
+#~ "  -y, --side-by-side        输出两列\n"
+#~ "  -w, --width=数            指定每行最多的字符数(默认为 130)\n"
+#~ "      --left-column         只在左边一列输出相同的行\n"
+#~ "      --suppress-common-lines 不输出相同的行\n"
+#~ "  -D, --ifdef=NAME          output merged file to show `#ifdef NAME' "
+#~ "diffs\n"
+#~ "      --GTYPE-group-format=GFMT GTYPE input groups with GFMT\n"
+#~ "      --line-format=LFMT    all input lines with LFMT\n"
+#~ "      --LTYPE-line-format=LFMT LTYPE input lines with LFMT\n"
+#~ "  -l, --paginate            pass the output through `pr' to paginate it\n"
+#~ "  -t, --expand-tabs         输出中将制表符扩展为空格\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (C) 1997 Free Software Foundation, Inc.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "版权所有 (C) 1997 自由软件基金会\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "  -c, --context-diffs    force output to context diffs\n"
+#~ "  -e, --echo-comments    echo comments to standard error\n"
+#~ "  -o, --old-diffs        output old-style diffs, no matter what\n"
+#~ "  -p, --patch-format     generate patch format\n"
+#~ "  -P                     same as -p\n"
+#~ "  -s, --strip-comments   strip comment lines\n"
+#~ "  -u, --unidiffs         force output to unidiffs\n"
+#~ "  -U                     same as -p and -u\n"
+#~ "  -=, --use-equals       replace spaces by equal signs in unidiffs\n"
+#~ "      --help             display this help and exit\n"
+#~ "      --version          output version information and exit\n"
+#~ "\n"
+#~ "If FILE is not specified, read standard input.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "  -c，--context-diffs    强制输出上下文格式 diff\n"
+#~ "  -e，--echo-comments    将注释输出到标准错误设备上\n"
+#~ "  -o，--old-diffs        输出旧式风格的 diff\n"
+#~ "  -p，--patch-format     生成 patch 格式\n"
+#~ "  -P                     与 -p 相同\n"
+#~ "  -s，--strip-comments   剥离注释行\n"
+#~ "  -u，--unidiffs         强制输出 unidiff\n"
+#~ "  -U                     same as -p and -u\n"
+#~ "  -=, --use-equals       replace spaces by equal signs in unidiffs\n"
+#~ "      --help             display this help and exit\n"
+#~ "      --version          output version information and exit\n"
+#~ "\n"
+#~ "If FILE is not specified, read standard input.\n"
+
+#~ msgid ""
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "\n"
+#~ "  -C, --copyright            print copyright then exit\n"
+#~ "  -K, --no-init-term         like -t, but no termcap init/term strings\n"
+#~ "  -V, --version              print program version then exit\n"
+#~ "  -1, --no-deleted           inhibit output of deleted words\n"
+#~ "  -2, --no-inserted          inhibit output of inserted words\n"
+#~ "  -3, --no-common            inhibit output of common words\n"
+#~ "  -a, --auto-pager           automatically calls a pager\n"
+#~ "  -h, --help                 print this help\n"
+#~ "  -i, --ignore-case          fold character case while comparing\n"
+#~ "  -l, --less-mode            variation of printer mode for \"less\"\n"
+#~ "  -n, --avoid-wraps          do not extend fields through newlines\n"
+#~ "  -p, --printer              overstrike as for printers\n"
+#~ "  -s, --statistics           say how many words deleted, inserted etc.\n"
+#~ "  -t, --terminal             use termcap as for terminal displays\n"
+#~ "  -w, --start-delete=STRING  string to mark beginning of delete region\n"
+#~ "  -x, --end-delete=STRING    string to mark end of delete region\n"
+#~ "  -y, --start-insert=STRING  string to mark beginning of insert region\n"
+#~ "  -z, --end-insert=STRING    string to mark end of insert region\n"
+#~ msgstr ""
+#~ "长选项必须用的参数在使用短选项时也是必须的。\n"
+#~ "\n"
+#~ "  -C, --copyright            打印版权信息并退出\n"
+#~ "  -K, --no-init-term         like -t, but no termcap init/term strings\n"
+#~ "  -V, --version              打印程序版本并退出\n"
+#~ "  -1, --no-deleted           不输出被删除的词\n"
+#~ "  -2, --no-inserted          不输出插入的词\n"
+#~ "  -3, --no-common            不输出相同的词\n"
+#~ "  -a, --auto-pager           自动调用分页程序\n"
+#~ "  -h, --help                 打印此帮助\n"
+#~ "  -i, --ignore-case          比较时忽略字符大小写\n"
+#~ "  -l, --less-mode            variation of printer mode for \"less\"\n"
+#~ "  -n, --avoid-wraps          字段不跨行\n"
+#~ "  -p, --printer              overstrike as for printers\n"
+#~ "  -s, --statistics           say how many words deleted, inserted etc.\n"
+#~ "  -t, --terminal             use termcap as for terminal displays\n"
+#~ "  -w, --start-delete=字符串  标记删除区域起始的字符串\n"
+#~ "  -x, --end-delete=字符串    标记删除区域结束的字符串\n"
+#~ "  -y, --start-insert=字符串  标记插入区域起始的字符串\n"
+#~ "  -z, --end-insert=字符串    标记插入区域结束的字符串\n"
